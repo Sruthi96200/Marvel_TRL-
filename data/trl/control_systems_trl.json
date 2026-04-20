@@ -1,0 +1,24 @@
+{
+  "trl_range": "5-6",
+  "confidence": "MEDIUM",
+  "summary": "The Control and Instrumentation Systems subsystem has demonstrated component-level testing in a relevant environment, with prototype demos and system demonstrations in operational environments. However, the evidence suggests that further refinement and validation are needed to achieve higher TRLs. The subsystem is considered mature enough for deployment in a controlled environment but requires additional testing to ensure reliability and performance.",
+  "key_evidence": "Document 3 (\"MARVEL Instrumentation, Control, & Software Considerations\") provides detailed information on I&C design decisions, sensor and actuator selection, and safety-related functionality, which suggests that the subsystem is nearing TRL 5-6.",
+  "limiting_factor": "The limited availability of experimental data and the need for further validation in operational environments may be holding this subsystem back from achieving higher TRLs. Additional testing and validation are required to ensure the reliability and performance of the Control and Instrumentation Systems in real-world conditions.",
+  "next_step": "To advance to TRL 7-8, further experimentation and validation in operational environments would be necessary to demonstrate the system's performance and reliability under various operating conditions. This could involve integrating the subsystem with other components, conducting extensive testing, and gathering more data on its behavior in real-world scenarios.",
+  "raw_response": "TRL_RANGE: 5-6\nCONFIDENCE: MEDIUM\nSUMMARY: The Control and Instrumentation Systems subsystem has demonstrated component-level testing in a relevant environment, with prototype demos and system demonstrations in operational environments. However, the evidence suggests that further refinement and validation are needed to achieve higher TRLs. The subsystem is considered mature enough for deployment in a controlled environment but requires additional testing to ensure reliability and performance.\nKEY_EVIDENCE: Document 3 (\"MARVEL Instrumentation, Control, & Software Considerations\") provides detailed information on I&C design decisions, sensor and actuator selection, and safety-related functionality, which suggests that the subsystem is nearing TRL 5-6.\nLIMITING_FACTOR: The limited availability of experimental data and the need for further validation in operational environments may be holding this subsystem back from achieving higher TRLs. Additional testing and validation are required to ensure the reliability and performance of the Control and Instrumentation Systems in real-world conditions.\nNEXT_STEP: To advance to TRL 7-8, further experimentation and validation in operational environments would be necessary to demonstrate the system's performance and reliability under various operating conditions. This could involve integrating the subsystem with other components, conducting extensive testing, and gathering more data on its behavior in real-world scenarios.",
+  "subsystem": "Control and Instrumentation Systems",
+  "evidence_used": [
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Refining NEAMS MARVEL Reactor Model Accuracy",
+    "MARVEL Instrumentation, Control, & Software Considerations",
+    "Comparing Control Performance Between Simulation and Experiment using the Microreactor Automated Control System Testbed",
+    "Microreactor Program Technology Maturation MACS system reports"
+  ],
+  "top_doc_scores": [
+    0.833,
+    0.782,
+    0.77,
+    0.77,
+    0.732
+  ]
+}

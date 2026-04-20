@@ -1,0 +1,24 @@
+{
+  "trl_range": "5-6",
+  "confidence": "MEDIUM",
+  "summary": "The Heat Transport System (Heat Pipes) subsystem has demonstrated component-level testing in a relevant environment, with prototype demonstrations of heat pipe performance under various operating conditions. However, the system's overall performance and stability remain to be fully validated in an operational environment. Further testing is needed to demonstrate qualified operation.",
+  "key_evidence": "Document 3 - \"Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe\"",
+  "limiting_factor": "The lack of comprehensive validation of heat pipe performance under extreme operating conditions, such as those encountered during startup and shutdown cycles, remains a significant challenge. This limitation hinders the system's ability to be fully qualified for operational deployment.",
+  "next_step": "To advance to TRL 7-8, further testing is required to demonstrate the Heat Transport System's qualified operation in an operational environment, including comprehensive validation of heat pipe performance under various operating conditions and thorough analysis of its stability and reliability. This would involve conducting more extensive experiments, such as those described in Document 4, and integrating the system with other subsystems to ensure seamless operation.",
+  "raw_response": "TRL_RANGE: 5-6\nCONFIDENCE: MEDIUM\nSUMMARY: The Heat Transport System (Heat Pipes) subsystem has demonstrated component-level testing in a relevant environment, with prototype demonstrations of heat pipe performance under various operating conditions. However, the system's overall performance and stability remain to be fully validated in an operational environment. Further testing is needed to demonstrate qualified operation.\n\nKEY_EVIDENCE: Document 3 - \"Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe\"\n\nLIMITING_FACTOR: The lack of comprehensive validation of heat pipe performance under extreme operating conditions, such as those encountered during startup and shutdown cycles, remains a significant challenge. This limitation hinders the system's ability to be fully qualified for operational deployment.\n\nNEXT_STEP: To advance to TRL 7-8, further testing is required to demonstrate the Heat Transport System's qualified operation in an operational environment, including comprehensive validation of heat pipe performance under various operating conditions and thorough analysis of its stability and reliability. This would involve conducting more extensive experiments, such as those described in Document 4, and integrating the system with other subsystems to ensure seamless operation.",
+  "subsystem": "Heat Transport System (Heat Pipes)",
+  "evidence_used": [
+    "MARVEL Reactor Fuel Performance Report",
+    "Perspectives on Potential Advanced Construction Technologies for Nuclear Energy",
+    "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Single Primary Heat Extraction and Removal Emulator (SPHERE) Long Duration Testing"
+  ],
+  "top_doc_scores": [
+    0.895,
+    0.895,
+    0.873,
+    0.833,
+    0.833
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "subsystem": "control_systems",
+  "name": "Control and Instrumentation Systems",
+  "scoring_summary": {
+    "total_documents": 23,
+    "avg_quality_score": 0.617,
+    "high_quality": 15,
+    "medium_quality": 8,
+    "low_quality": 0,
+    "top_document": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM"
+  },
+  "scored_documents": [
+    {
+      "osti_id": "3024441",
+      "title": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "url": "https://www.osti.gov/biblio/3024441",
+      "doi_url": "",
+      "snippet": "MARVEL is a natural-convection-cooled sodium-potassium microreactor that is anticipated to generate 85 kilowatts of thermal energy. It will operate within Idaho National Laboratory\u2019s Transient Reactor Test Facility and is being developed by the DOE Microreactor Program. MARVEL will be used to test microreactor applications, evaluate systems for remote monitoring, and develop autonomous control technologies.\r\n\r\nA thermal-hydraulic computational model of this facility is a valuable tool to study i",
+      "publication_date": "2025-09-08T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.833,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 1.0,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Highly MARVEL-specific \u2014 mentions: MARVEL, Idaho National Laboratory, microreactor program",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: test, facility",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3019557",
+      "title": "Refining NEAMS MARVEL Reactor Model Accuracy",
+      "url": "https://www.osti.gov/biblio/3019557",
+      "doi_url": "https://doi.org/10.2172/3019557",
+      "snippet": "This report outlines the progress of Idaho National Laboratory (INL) in improving the fidelity of the multiphysics model of the Microreactor Applications Research Validation and Evaluation (MARVEL) reactor developed in FY24. The multiphysics model firstly developed in FY24 leverages three single-physics models coupled via the MOOSE\u2019s MultiApps and Transfer systems. The first single-physics model, that functions as the driver application, leverages Griffin to model the neutron transport in the co",
+      "publication_date": "2025-12-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.782,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.95,
+        "recency": 1.0,
+        "marvel_specific": 1.0,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: technical report",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Highly MARVEL-specific \u2014 mentions: MARVEL, INL, Idaho National Laboratory",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3024431",
+      "title": "MARVEL Instrumentation, Control, & Software Considerations",
+      "url": "https://www.osti.gov/biblio/3024431",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.2606609",
+      "snippet": "This paper details the various I&C considerations and design decisions made throughout the MARVEL (Micro-reactor Applications Research Validation and Evaluation) project, including sensor and actuator selection, safety-related functionality, digital control hardware and software, and testing methodologies. Key challenges such as managing radiation, temperature, and space constraints are discussed, along with the trade-offs between using standard equipment and custom solutions. The successful int",
+      "publication_date": "2025-10-25T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.77,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.8,
+        "recency": 1.0,
+        "marvel_specific": 0.6,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: journal article",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Partially relevant \u2014 mentions: MARVEL",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: test, testing, validation",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3024352",
+      "title": "Comparing Control Performance Between Simulation and Experiment using the Microreactor Automated Control System Testbed",
+      "url": "https://www.osti.gov/biblio/3024352",
+      "doi_url": "",
+      "snippet": "In the advanced reactor domain, a flexible and scalable software/hardware infrastructure is crucial for integrating and validating various control technologies. This study used the Microreactor Automated Control System (MACS) hardware platform as a testbed. MACS was originally designed to mirror Idaho National Laboratory (INL)'s Microreactor Applications Research Validation and Evaluation (MARVEL), a 85-kW thermal fission microreactor. It features control drums for simulated reactivity control; ",
+      "publication_date": "2025-06-18T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.77,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 1.0,
+        "evidence_type": 0.75,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Highly MARVEL-specific \u2014 mentions: MARVEL, INL, Idaho National Laboratory",
+        "evidence_type": "Mixed test + simulation evidence",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3027723",
+      "title": "Microreactor Program Technology Maturation MACS system reports",
+      "url": "https://www.osti.gov/biblio/3027723",
+      "doi_url": "https://doi.org/10.2172/3027723",
+      "snippet": "This submission contains several reports associated with the DOE Microreactor Program Technology Maturation MACS system. \r\n\r\nThese include milestone reports:\r\n\r\nM3AT-24IN0804031-Optimized MACS architecture\r\nM3AT-24IN0804033-Light and temp sensor integration\r\nM4AT-23IN0804055-Update Microreactor Automated Control System (MACS) hardware based on input from demonstration\r\nM2AT-23IN0804054-Demonstrate actuation of control system using Microreactor Automated Control System (MACS)",
+      "publication_date": "2025-03-14T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.732,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.95,
+        "recency": 1.0,
+        "marvel_specific": 0.8,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: technical report",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "MARVEL-related \u2014 mentions: microreactor program, DOE microreactor",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3017646",
+      "title": "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+      "url": "https://www.osti.gov/biblio/3017646",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.2556622",
+      "snippet": "This paper presents the structural design and supporting analysis for the Microreactor Applications Research Validation and Evaluation (MARVEL) primary coolant system (PCS) using the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code Section III, Division 5, rules. MARVEL is a liquid metal\u2013cooled microreactor intended to provide experimental capabilities for the rapid testing and development of microreactor technologies. The PCS utilizes high-temperature sodium-potas",
+      "publication_date": "2025-12-17T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.708,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.8,
+        "recency": 1.0,
+        "marvel_specific": 0.6,
+        "evidence_type": 0.75,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: journal article",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Partially relevant \u2014 mentions: MARVEL",
+        "evidence_type": "Mixed test + simulation evidence",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "2587259",
+      "title": "Hardware-Based Demonstration of Temperature Control Functions for Reactor Systems",
+      "url": "https://www.osti.gov/biblio/2587259",
+      "doi_url": "https://doi.org/10.2172/2587259",
+      "snippet": "Establishing autonomy in reactor control systems has become essential for the expansion of nuclear technologies. Thermal regulation in particular remains crucial for maintaining stable operation and ensuring the integrity of fuel. To alleviate public skepticism of the safety of nuclear reactors, demonstrating control over this key factor is pivotal. Utilizing electric heat pads to simulate the heat released in a reactor core, thermocouples for temperature monitoring, and an Arduino micro program",
+      "publication_date": "2025-08-01T04:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.708,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.95,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: technical report",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: demonstration, operation",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3002223",
+      "title": "Microreactor Automated Control System - Digital Twin Models and Advanced Control Systems Updates",
+      "url": "https://www.osti.gov/biblio/3002223",
+      "doi_url": "https://doi.org/10.2172/3002223",
+      "snippet": "Automation of control systems is expected to be important in the economic and safe operation of microreactors. Therefore, there is a need to develop and demonstrate automated control for microreactors, along with the development of testbeds for this purpose. This report provides updates on the status of a nonnuclear microreactor automated control system (MACS)\u2014a real-time, hardware-in-the-loop testbed for non-nuclear testing of microreactor control system automation. A real-time hardware-in-the-",
+      "publication_date": "2025-08-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.708,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.95,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: technical report",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: test, testing, operation",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3022372",
+      "title": "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes",
+      "url": "https://www.osti.gov/biblio/3022372",
+      "doi_url": "https://doi.org/10.2172/3022372",
+      "snippet": "Advanced nuclear reactors are a key part of the future of nuclear energy both in the United States and globally. They offer unique benefits for various energy-demanding applications, including use in remote locations, compact size, modular manufacturing, remote monitoring, low and/or variable power rating operation, and reliance on novel technologies to enhance operational safety.\r\nTo achieve economic feasibility, advanced reactors must significantly reduce their workforces in comparison with th",
+      "publication_date": "2025-09-30T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.682,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.95,
+        "recency": 1.0,
+        "marvel_specific": 0.6,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: technical report",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "Partially relevant \u2014 mentions: MARVEL",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "2589510",
+      "title": "ViBRANT Applied as a Closed Loop Flux and Thermal Surrogate",
+      "url": "https://www.osti.gov/biblio/2589510",
+      "doi_url": "",
+      "snippet": "Surrogate testing platforms provide a means to develop a target aspect of a larger system. Some systems target single aspects while others are more wholistic. ViBRANT (Visual Benign Reactor as Analog for Nuclear Testing) aims to be a wholistic system by representing the primary reactor behaviors through an accessible LED driven reactor core, photodiodes, thermocouples, and high-performance software interfaces being developed to the standards required for actual microreactor deployment such as MA",
+      "publication_date": "2025-06-15T04:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.673,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.6
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: test, testing",
+        "trl_signal": "Weak TRL signal \u2014 mentions: deployment"
+      }
+    },
+    {
+      "osti_id": "3027745",
+      "title": "Implementation and Demonstration of the Digital Twin Certification System Remote Operations Framework",
+      "url": "https://www.osti.gov/biblio/3027745",
+      "doi_url": "",
+      "snippet": "Microreactors are one promising advanced-reactor concept being pursued by the nuclear industry. They are distinguished by a relatively low power output of 20 MWth or less. These microreactors are intended for deployment in applications where conventional small-capacity power solutions, such as diesel generators, are either economically unfeasible or logistically challenging. Such applications include providing electric power and/or heat for remote communities, mining sites, defense installations",
+      "publication_date": "2025-06-16T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.673,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.6
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: demonstration, operation",
+        "trl_signal": "Weak TRL signal \u2014 mentions: deployment"
+      }
+    },
+    {
+      "osti_id": "3027744",
+      "title": "Implementation and Demonstration of the Digital Twin Certification System Remote Operations Framework",
+      "url": "https://www.osti.gov/biblio/3027744",
+      "doi_url": "",
+      "snippet": "Microreactors are one promising advanced-reactor concept being pursued by the nuclear industry. They are distinguished by a relatively low power output of 20 MWth or less. These microreactors are intended for deployment in applications where conventional small-capacity power solutions, such as diesel generators, are either economically unfeasible or logistically challenging. Such applications include providing electric power and/or heat for remote communities, mining sites, defense installations",
+      "publication_date": "2025-06-16T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.673,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.6
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: demonstration, operation",
+        "trl_signal": "Weak TRL signal \u2014 mentions: deployment"
+      }
+    },
+    {
+      "osti_id": "2564409",
+      "title": "DEVELOPMENT AND DEMONSTRATION TESTBED FOR THE REMOTE OPERATIONS AND MONITORING OF MICROREACTORS",
+      "url": "https://www.osti.gov/biblio/2564409",
+      "doi_url": "https://doi.org/10.1115/ICONE31-133205",
+      "snippet": "The nuclear industry is rapidly developing many advanced-reactor concepts for near-term deployment in both traditional and non-traditional nuclear-powered applications. One such category of advanced reactor is the microreactor, a class of reactor with less than 20MWth power output, intended for applications where the economics or logistics of traditional power sources are difficult. This includes applications such as remote communities, mining sites, defense installations, or humanitarian and di",
+      "publication_date": "2024-11-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.643,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 0.8,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.6
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Recent (2024) \u2014 likely relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: test, demonstration, operation",
+        "trl_signal": "Weak TRL signal \u2014 mentions: deployment"
+      }
+    },
+    {
+      "osti_id": "2587262",
+      "title": "Project Presentation: Hardware-Based Demonstration of Temperature Control Functions for Reactor Systems",
+      "url": "https://www.osti.gov/biblio/2587262",
+      "doi_url": "https://doi.org/10.2172/2587262",
+      "snippet": "Autonomous thermal regulation in nuclear reactors remains crucial for maintaining stable operation and ensuring the integrity of fuel. To alleviate public skepticism of the safety of nuclear reactors, demonstrating control over this key factor is pivotal. Utilizing electric heat pads to simulate the heat released in a reactor core, thermocouples for temperature monitoring, and an Arduino micro programmable logic controller (PLC) with an embedded proportional-integral-derivative (PID) algorithm f",
+      "publication_date": "2025-07-24T04:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.633,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: demonstration, operation",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "3017530",
+      "title": "Detection of Diversion in a Realistic Heat Pipe Microreactor Using Supervised Machine Learning",
+      "url": "https://www.osti.gov/biblio/3017530",
+      "doi_url": "https://doi.org/10.1080/00295639.2025.2560205",
+      "snippet": "Microreactors (MRs) pose new challenges for international safeguards. Here, their small size and mass reproducibility make them ideal for deployment in greater numbers and in remote locations, making the job of safeguards inspectors more challenging. Machine learning (ML) is currently being applied to many fields to augment human performance and increase automation; in particular, ML could be used to provide insight for international inspectors to help detect the diversion of nuclear fuel from M",
+      "publication_date": "2025-10-15T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.585,
+      "evidence_tier": "HIGH",
+      "score_breakdown": {
+        "source_type": 0.8,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.6
+      },
+      "score_reasons": {
+        "source_type": "Source type: journal article",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "Weak TRL signal \u2014 mentions: deployment"
+      }
+    },
+    {
+      "osti_id": "3013195",
+      "title": "Explainable discrepancy checker and diagnosis for digital Twin-based supervisory control system",
+      "url": "https://www.osti.gov/biblio/3013195",
+      "doi_url": "https://doi.org/10.1016/j.anucene.2025.112018",
+      "snippet": "By virtually representing a physical object and process, a digital twin (DT) enables optimal autonomous operations by combining classical and novel frameworks in sensors, state predictions, and multi-input/multi-output systems. A DT\u2019s values depend on how well models estimate quantities of interest and on how uncertainty is handled. Moreover, DTs often combine physics-based and data-driven models with mixed fidelities, where classical uncertainty quantification (UQ) struggles with many sources o",
+      "publication_date": "2025-12-02T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.545,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.8,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: journal article",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "2572866",
+      "title": "Employing a Hardware-in-the-Loop Approach to Realize a Fully Homomorphic Controller for a Small Modular Advanced High Temperature Reactor",
+      "url": "https://www.osti.gov/biblio/2572866",
+      "doi_url": "",
+      "snippet": "This paper addresses the cybersecurity challenges of advanced nuclear reactors by integrating fully homomorphic encryption (FHE) into their control systems, enabling encrypted processing of control signals without compromising functionality. Advanced nuclear reactors, including Small Modular Reactors (SMRs) and microreactors, aim to achieve autonomous and remote operations, reducing costs and enhancing competitiveness. However, these advancements expand the attack surface for cyberattacks, parti",
+      "publication_date": "2025-06-17T04:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.507,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.65,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Source type: conference",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "arxiv_id": "1607.03362v3",
+      "title": "Automated Instrumentation for High-Temperature Seebeck Coefficient Measurements",
+      "url": "https://arxiv.org/abs/1607.03362v3",
+      "pdf_url": "https://arxiv.org/pdf/1607.03362v3",
+      "snippet": "In this work, we report the fabrication of fully automated experimental setup for high temperature Seebeck coefficient (\u03b1) measurement. The K-type thermocouples are used to measure the average temperature of the sample and Seebeck voltage across it. The temperature dependence of the Seebeck coefficients of the thermocouple and its negative leg is taken care by using the integration method. Steady state based differential technique is used for \u03b1 measurement. Use of limited component and thin heat",
+      "publication_date": "2016-07-12",
+      "authors": "Ashutosh Patel, Sudhir K. Pandey",
+      "source": "arXiv",
+      "quality_score": 0.505,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.5,
+        "recency": 0.4,
+        "marvel_specific": 0.2,
+        "evidence_type": 1.0,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "arXiv preprint \u2014 not peer reviewed or officially published",
+        "recency": "Older (2016) \u2014 may be outdated",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Strong test/experimental evidence \u2014 keywords: experiment, experimental, measurement",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "arxiv_id": "2304.02381v2",
+      "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+      "url": "https://arxiv.org/abs/2304.02381v2",
+      "pdf_url": "https://arxiv.org/pdf/2304.02381v2",
+      "snippet": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the phys",
+      "publication_date": "2023-04-05",
+      "authors": "Maximilian P Niroomand, David J Wales",
+      "source": "arXiv",
+      "quality_score": 0.44,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.5,
+        "recency": 0.8,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "arXiv preprint \u2014 not peer reviewed or officially published",
+        "recency": "Recent (2023) \u2014 likely relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "osti_id": "2588465",
+      "title": "A Bottom-Up Cost Estimation Tool for Nuclear Microreactors",
+      "url": "https://www.osti.gov/biblio/2588465",
+      "doi_url": "",
+      "snippet": "The rising interest in nuclear microreactors has highlighted the need for comprehensive technoeconomic assessments. However, the scarcity of publicly available designs and cost data has posed significant challenges. To address this issue, the Microreactor Optimization Using Simulation and Economics (MOUSE) tool is developed. MOUSE is a tool that integrates nuclear microreactor design with reactor economics. The design calculations encompass core simulations using the OpenMC Monte Carlo Particle ",
+      "publication_date": "2025-09-08T00:00:00Z",
+      "authors": "",
+      "source_type": "S&amp;T Accomplishment Report",
+      "research_org": "",
+      "source": "OSTI",
+      "quality_score": 0.42,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.4,
+        "recency": 1.0,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.4,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "Unknown source type: 's&amp;t accomplishment report'",
+        "recency": "Very recent (2025) \u2014 highly relevant",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Primarily simulation/modeling \u2014 keywords: simulation, design",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "arxiv_id": "2011.08729v3",
+      "title": "Control Strategies for Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2011.08729v3",
+      "pdf_url": "https://arxiv.org/pdf/2011.08729v3",
+      "snippet": "This chapter focuses on the self-driving technology from a control perspective and investigates the control strategies used in autonomous vehicles and advanced driver-assistance systems from both theoretical and practical viewpoints. First, we introduce the self-driving technology as a whole, including perception, planning and control techniques required for accomplishing the challenging task of autonomous driving. We then dwell upon each of these operations to explain their role in the autonomo",
+      "publication_date": "2020-11-17",
+      "authors": "Chinmay Vilas Samak, Tanmay Vilas Samak, Sivanathan Kandhasamy",
+      "source": "arXiv",
+      "quality_score": 0.41,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.5,
+        "recency": 0.6,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "arXiv preprint \u2014 not peer reviewed or officially published",
+        "recency": "Moderately recent (2020)",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "arxiv_id": "2005.06203v1",
+      "title": "Analog to digital conversion in beam instrumentation systems",
+      "url": "https://arxiv.org/abs/2005.06203v1",
+      "pdf_url": "https://arxiv.org/pdf/2005.06203v1",
+      "snippet": "Analog to digital conversion is a very important part of almost all beam instrumentation systems. Ideally, in a properly designed system, the used analog to digital converter (ADC) should not limit the system performance. However, despite recent improvements in ADC technology, quite often this is not possible and the choice of the ADC influences significantly or even restricts the system performance. It is therefore very important to estimate the requirements for the analog to digital conversion",
+      "publication_date": "2020-05-13",
+      "authors": "Marek Gasior",
+      "source": "arXiv",
+      "quality_score": 0.41,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.5,
+        "recency": 0.6,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.5,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "arXiv preprint \u2014 not peer reviewed or officially published",
+        "recency": "Moderately recent (2020)",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Unclear evidence type",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    },
+    {
+      "arxiv_id": "2106.14827v2",
+      "title": "Analysis and Control of Autonomous Mobility-on-Demand Systems",
+      "url": "https://arxiv.org/abs/2106.14827v2",
+      "pdf_url": "https://arxiv.org/pdf/2106.14827v2",
+      "snippet": "Challenged by urbanization and increasing travel needs, existing transportation systems need new mobility paradigms. In this article, we present the emerging concept of autonomous mobility-on-demand, whereby centrally orchestrated fleets of autonomous vehicles provide mobility service to customers. We provide a comprehensive review of methods and tools to model and solve problems related to autonomous mobility-on-demand systems. Specifically, we first identify problem settings for their analysis",
+      "publication_date": "2021-06-28",
+      "authors": "Gioele Zardini, Nicolas Lanzetti, Marco Pavone, Emilio Frazzoli",
+      "source": "arXiv",
+      "quality_score": 0.385,
+      "evidence_tier": "MEDIUM",
+      "score_breakdown": {
+        "source_type": 0.5,
+        "recency": 0.6,
+        "marvel_specific": 0.2,
+        "evidence_type": 0.4,
+        "trl_signal": 0.2
+      },
+      "score_reasons": {
+        "source_type": "arXiv preprint \u2014 not peer reviewed or officially published",
+        "recency": "Moderately recent (2021)",
+        "marvel_specific": "No direct MARVEL/INL mention \u2014 general nuclear content",
+        "evidence_type": "Primarily simulation/modeling \u2014 keywords: model, concept",
+        "trl_signal": "No explicit TRL/readiness signal"
+      }
+    }
+  ]
+}

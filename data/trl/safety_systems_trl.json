@@ -1,0 +1,24 @@
+{
+  "trl_range": "5-6",
+  "confidence": "MEDIUM",
+  "summary": "The Safety and Shutdown Systems subsystem for the MARVEL micro-reactor appears to be at a moderate level of maturity, with several documents demonstrating component-level testing and system-level demonstrations in relevant environments. However, the evidence is not exhaustive, and some aspects of the system's performance are not thoroughly evaluated. Overall, the TRL estimate suggests that the subsystem is close to being qualified but still requires further development.",
+  "key_evidence": "Document 2 \"Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes\" provides evidence of component-level testing (e.g., thermal hydraulic analysis) and system-level demonstrations in a relevant environment (the Transient Reactor Test Facility).",
+  "limiting_factor": "The lack of comprehensive documentation on the subsystem's performance under all possible operating conditions, including emergency shutdown scenarios, may be holding this subsystem back from a higher TRL.",
+  "next_step": "To advance to TRL 7-8, further testing and validation would be required to demonstrate the subsystem's performance in a fully operational environment, including comprehensive evaluation of emergency shutdown capabilities.",
+  "raw_response": "TRL_RANGE: 5-6\nCONFIDENCE: MEDIUM\nSUMMARY: The Safety and Shutdown Systems subsystem for the MARVEL micro-reactor appears to be at a moderate level of maturity, with several documents demonstrating component-level testing and system-level demonstrations in relevant environments. However, the evidence is not exhaustive, and some aspects of the system's performance are not thoroughly evaluated. Overall, the TRL estimate suggests that the subsystem is close to being qualified but still requires further development.\n\nKEY_EVIDENCE: Document 2 \"Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes\" provides evidence of component-level testing (e.g., thermal hydraulic analysis) and system-level demonstrations in a relevant environment (the Transient Reactor Test Facility).\n\nLIMITING_FACTOR: The lack of comprehensive documentation on the subsystem's performance under all possible operating conditions, including emergency shutdown scenarios, may be holding this subsystem back from a higher TRL.\n\nNEXT_STEP: To advance to TRL 7-8, further testing and validation would be required to demonstrate the subsystem's performance in a fully operational environment, including comprehensive evaluation of emergency shutdown capabilities.",
+  "subsystem": "Safety and Shutdown Systems",
+  "evidence_used": [
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes",
+    "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING",
+    "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+    "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes"
+  ],
+  "top_doc_scores": [
+    0.833,
+    0.815,
+    0.742,
+    0.708,
+    0.682
+  ]
+}
