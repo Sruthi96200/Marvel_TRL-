@@ -1,0 +1,24 @@
+{
+  "trl_range": "5",
+  "confidence": "MEDIUM",
+  "summary": "The Control and Instrumentation Systems (CIS) subsystem of the MARVEL micro-reactor project demonstrates a significant advancement in technology maturity, with the development of a scalable and flexible control system using the Microreactor Automated Control System (MACS) platform. While there are still limitations in terms of sensor integration and data validation, the overall quality of the evidence suggests that the CIS subsystem is ready for demonstration in an operational environment. However, further testing and validation are required to fully validate the system's performance.",
+  "key_evidence": "Document 3, \"MARVEL Instrumentation, Control, & Software Considerations\"",
+  "limiting_factor": "Sensor integration and data validation",
+  "next_step": "Conduct additional testing and validation of sensor integration and data validation before advancing to a higher TRL.",
+  "raw_response": "TRL_RANGE: 5\nCONFIDENCE: MEDIUM\nSUMMARY: The Control and Instrumentation Systems (CIS) subsystem of the MARVEL micro-reactor project demonstrates a significant advancement in technology maturity, with the development of a scalable and flexible control system using the Microreactor Automated Control System (MACS) platform. While there are still limitations in terms of sensor integration and data validation, the overall quality of the evidence suggests that the CIS subsystem is ready for demonstration in an operational environment. However, further testing and validation are required to fully validate the system's performance.\nKEY_EVIDENCE: Document 3, \"MARVEL Instrumentation, Control, & Software Considerations\"\nLIMITING_FACTOR: Sensor integration and data validation\nNEXT_STEP: Conduct additional testing and validation of sensor integration and data validation before advancing to a higher TRL.",
+  "subsystem": "Control and Instrumentation Systems",
+  "evidence_used": [
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Refining NEAMS MARVEL Reactor Model Accuracy",
+    "MARVEL Instrumentation, Control, & Software Considerations",
+    "Comparing Control Performance Between Simulation and Experiment using the Microreactor Automated Control System Testbed",
+    "Microreactor Program Technology Maturation MACS system reports"
+  ],
+  "top_doc_scores": [
+    0.833,
+    0.782,
+    0.77,
+    0.77,
+    0.732
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "trl_range": "6-7",
+  "confidence": "MEDIUM",
+  "summary": "The integration of microreactors into grid systems requires significant advancements in thermal-hydraulic modeling, component testing, and system demonstration to achieve a qualified status. While the current evidence demonstrates basic understanding of MARVEL's fuel performance and primary coolant system design, further research is needed to improve thermal management strategies and demonstrate the system's ability to operate in operational environments.",
+  "key_evidence": "Document 3 provides valuable insights into the thermal-hydraulic-mechanical modeling of the sodium-potassium-cooled MARVEL microreactor core. However, its limitations are primarily due to the lack of experimental data on the system's performance in a real-world environment, which is essential for advancing to higher TRLs.",
+  "limiting_factor": "The current evidence lacks sufficient experimental data to demonstrate the system's ability to operate in operational environments, such as grid integration and load coupling. Further research is needed to develop and validate thermal management strategies that can effectively manage heat transfer between the microreactor and the surrounding environment.",
+  "next_step": "Document 4 provides a promising starting point for accelerating the demonstration of various thermal management systems for data centers using nuclear-generated heat. The study's focus on developing and validating thermal management systems could be expanded to include more advanced subsystems, such as power generation and grid integration, to advance to higher TRLs.",
+  "raw_response": "TRL_RANGE: 6-7\nCONFIDENCE: MEDIUM\nSUMMARY: The integration of microreactors into grid systems requires significant advancements in thermal-hydraulic modeling, component testing, and system demonstration to achieve a qualified status. While the current evidence demonstrates basic understanding of MARVEL's fuel performance and primary coolant system design, further research is needed to improve thermal management strategies and demonstrate the system's ability to operate in operational environments.\nKEY_EVIDENCE: Document 3 provides valuable insights into the thermal-hydraulic-mechanical modeling of the sodium-potassium-cooled MARVEL microreactor core. However, its limitations are primarily due to the lack of experimental data on the system's performance in a real-world environment, which is essential for advancing to higher TRLs.\nLIMITING_FACTOR: The current evidence lacks sufficient experimental data to demonstrate the system's ability to operate in operational environments, such as grid integration and load coupling. Further research is needed to develop and validate thermal management strategies that can effectively manage heat transfer between the microreactor and the surrounding environment.\nNEXT_STEP: Document 4 provides a promising starting point for accelerating the demonstration of various thermal management systems for data centers using nuclear-generated heat. The study's focus on developing and validating thermal management systems could be expanded to include more advanced subsystems, such as power generation and grid integration, to advance to higher TRLs.",
+  "subsystem": "Grid Integration and Load Coupling",
+  "evidence_used": [
+    "MARVEL Reactor Fuel Performance Report",
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Thermal-Hydraulic-Mechanical Modeling and Simulation of Sodium-Potassium-Cooled MARVEL Microreactor Core",
+    "Improving Thermal Management Strategies for Data Centers: A Physical Testbed Incorporating Small Modular Reactor and Microreactor Technology",
+    "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code"
+  ],
+  "top_doc_scores": [
+    0.895,
+    0.833,
+    0.76,
+    0.733,
+    0.708
+  ]
+}

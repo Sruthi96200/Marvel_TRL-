@@ -1,0 +1,146 @@
+{
+  "heat_transport": {
+    "trl_range": "6",
+    "confidence": "MEDIUM",
+    "summary": "The development of heat transport systems for nuclear reactors, such as those using heat pipes, requires significant technological advancements in materials science, thermal management, and control systems. While the existing evidence demonstrates a basic understanding of heat pipe performance, further research is needed to achieve higher TRLs. A more comprehensive understanding of heat pipe behavior under various operating conditions and the development of robust control systems are necessary to advance to higher TRLs.",
+    "key_evidence": "Document 3 provides the most relevant information on the experimental investigations of heat pipe transients, which is essential for technology demonstration and verification and validation.",
+    "limiting_factor": "The lack of detailed data on the long-term performance stability of heat pipes under various operating conditions is a significant limiting factor in advancing to higher TRLs.",
+    "next_step": "Further research focusing on the development of robust control systems and the understanding of heat pipe behavior under diverse operating conditions, such as transient and steady-state scenarios, are necessary to advance to higher TRLs.",
+    "raw_response": "TRL_RANGE: 6\nCONFIDENCE: MEDIUM\nSUMMARY: The development of heat transport systems for nuclear reactors, such as those using heat pipes, requires significant technological advancements in materials science, thermal management, and control systems. While the existing evidence demonstrates a basic understanding of heat pipe performance, further research is needed to achieve higher TRLs. A more comprehensive understanding of heat pipe behavior under various operating conditions and the development of robust control systems are necessary to advance to higher TRLs.\nKEY_EVIDENCE: Document 3 provides the most relevant information on the experimental investigations of heat pipe transients, which is essential for technology demonstration and verification and validation.\nLIMITING_FACTOR: The lack of detailed data on the long-term performance stability of heat pipes under various operating conditions is a significant limiting factor in advancing to higher TRLs.\nNEXT_STEP: Further research focusing on the development of robust control systems and the understanding of heat pipe behavior under diverse operating conditions, such as transient and steady-state scenarios, are necessary to advance to higher TRLs.",
+    "subsystem": "Heat Transport System (Heat Pipes)",
+    "evidence_used": [
+      "MARVEL Reactor Fuel Performance Report",
+      "Perspectives on Potential Advanced Construction Technologies for Nuclear Energy",
+      "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+      "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "Single Primary Heat Extraction and Removal Emulator (SPHERE) Long Duration Testing"
+    ],
+    "top_doc_scores": [
+      0.895,
+      0.895,
+      0.873,
+      0.833,
+      0.833
+    ]
+  },
+  "reactor_core": {
+    "trl_range": "6-7",
+    "confidence": "MEDIUM",
+    "summary": "The reactor core and fuel system are being developed for a microreactor applications test bed at Idaho National Laboratory (INL), with the goal of improving the integration of microreactors to end-user applications. While significant progress has been made, challenges remain in achieving reliable and efficient operation, particularly in terms of thermal management and fuel cycle performance. The current evidence suggests that a higher TRL is feasible but requires further refinement of the reactor design and testing protocols.",
+    "key_evidence": "Document 4 provides the most relevant information on the reactor core and fuel system development, highlighting the ongoing research and testing efforts at INL.",
+    "limiting_factor": "The lack of detailed thermal-hydraulic modeling and simulation capabilities for sodium-potassium-cooled microreactor cores is a significant limiting factor, as it hinders the achievement of reliable and efficient operation.",
+    "next_step": "",
+    "raw_response": "TRL_RANGE: 6-7\nCONFIDENCE: MEDIUM\nSUMMARY: The reactor core and fuel system are being developed for a microreactor applications test bed at Idaho National Laboratory (INL), with the goal of improving the integration of microreactors to end-user applications. While significant progress has been made, challenges remain in achieving reliable and efficient operation, particularly in terms of thermal management and fuel cycle performance. The current evidence suggests that a higher TRL is feasible but requires further refinement of the reactor design and testing protocols.\nKEY_EVIDENCE: Document 4 provides the most relevant information on the reactor core and fuel system development, highlighting the ongoing research and testing efforts at INL.\nLIMITING_FACTOR: The lack of detailed thermal-hydraulic modeling and simulation capabilities for sodium-potassium-cooled microreactor cores is a significant limiting factor, as it hinders the achievement of reliable and efficient operation.",
+    "subsystem": "Reactor Core and Fuel System",
+    "evidence_used": [
+      "MARVEL Reactor Fuel Performance Report",
+      "MARVEL Reactor Fuel Performance Report (Rev.2)",
+      "Refining NEAMS MARVEL Reactor Model Accuracy",
+      "Thermal-Hydraulic-Mechanical Modeling and Simulation of Sodium-Potassium-Cooled MARVEL Microreactor Core",
+      "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING"
+    ],
+    "top_doc_scores": [
+      0.895,
+      0.877,
+      0.782,
+      0.76,
+      0.742
+    ]
+  },
+  "power_conversion": {
+    "trl_range": "6-7",
+    "confidence": "MEDIUM",
+    "summary": "The Power Conversion System (Stirling Engines) for a high-performance sodium-filled heat pipe requires significant technological advancements in areas such as materials science, thermal management, and control systems to achieve reliable operation at high power levels. While the existing evidence documents provide valuable insights into the feasibility of this system, further research is needed to demonstrate its performance and reliability in a controlled environment. The limiting factor is the lack of data on the thermal stability and durability of sodium-filled heat pipes under high-power conditions.",
+    "key_evidence": "Document 1 provides a good understanding of the heat pipe's behavior under transient conditions, but lacks detailed information on the system's overall performance and reliability. Document 2 offers insights into the design and operation of the MARVEL microreactor, but does not provide direct evidence of the Stirling Engines' performance in this context.",
+    "limiting_factor": "The lack of data on thermal stability and durability of sodium-filled heat pipes under high-power conditions is a significant limiting factor for advancing to TRL 7. Further research is needed to develop materials and designs that can withstand the stresses associated with high power operation.",
+    "next_step": "To advance to TRL 8, further experimental work is required to demonstrate the Stirling Engines' performance in a controlled environment, including testing under various operating conditions and characterizing the system's thermal behavior.",
+    "raw_response": "TRL_RANGE: 6-7\nCONFIDENCE: MEDIUM\nSUMMARY: The Power Conversion System (Stirling Engines) for a high-performance sodium-filled heat pipe requires significant technological advancements in areas such as materials science, thermal management, and control systems to achieve reliable operation at high power levels. While the existing evidence documents provide valuable insights into the feasibility of this system, further research is needed to demonstrate its performance and reliability in a controlled environment. The limiting factor is the lack of data on the thermal stability and durability of sodium-filled heat pipes under high-power conditions.\nKEY_EVIDENCE: Document 1 provides a good understanding of the heat pipe's behavior under transient conditions, but lacks detailed information on the system's overall performance and reliability. Document 2 offers insights into the design and operation of the MARVEL microreactor, but does not provide direct evidence of the Stirling Engines' performance in this context.\nLIMITING_FACTOR: The lack of data on thermal stability and durability of sodium-filled heat pipes under high-power conditions is a significant limiting factor for advancing to TRL 7. Further research is needed to develop materials and designs that can withstand the stresses associated with high power operation.\nNEXT_STEP: To advance to TRL 8, further experimental work is required to demonstrate the Stirling Engines' performance in a controlled environment, including testing under various operating conditions and characterizing the system's thermal behavior.",
+    "subsystem": "Power Conversion System (Stirling Engines)",
+    "evidence_used": [
+      "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+      "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "Lessons Learned from MARVEL Initial Fabrication and Testing",
+      "MARVEL Utilization Plan",
+      "MARVEL Decommissioning Plan"
+    ],
+    "top_doc_scores": [
+      0.873,
+      0.833,
+      0.807,
+      0.777,
+      0.777
+    ]
+  },
+  "control_systems": {
+    "trl_range": "5",
+    "confidence": "MEDIUM",
+    "summary": "The Control and Instrumentation Systems (CIS) subsystem of the MARVEL micro-reactor project demonstrates a significant advancement in technology maturity, with the development of a scalable and flexible control system using the Microreactor Automated Control System (MACS) platform. While there are still limitations in terms of sensor integration and data validation, the overall quality of the evidence suggests that the CIS subsystem is ready for demonstration in an operational environment. However, further testing and validation are required to fully validate the system's performance.",
+    "key_evidence": "Document 3, \"MARVEL Instrumentation, Control, & Software Considerations\"",
+    "limiting_factor": "Sensor integration and data validation",
+    "next_step": "Conduct additional testing and validation of sensor integration and data validation before advancing to a higher TRL.",
+    "raw_response": "TRL_RANGE: 5\nCONFIDENCE: MEDIUM\nSUMMARY: The Control and Instrumentation Systems (CIS) subsystem of the MARVEL micro-reactor project demonstrates a significant advancement in technology maturity, with the development of a scalable and flexible control system using the Microreactor Automated Control System (MACS) platform. While there are still limitations in terms of sensor integration and data validation, the overall quality of the evidence suggests that the CIS subsystem is ready for demonstration in an operational environment. However, further testing and validation are required to fully validate the system's performance.\nKEY_EVIDENCE: Document 3, \"MARVEL Instrumentation, Control, & Software Considerations\"\nLIMITING_FACTOR: Sensor integration and data validation\nNEXT_STEP: Conduct additional testing and validation of sensor integration and data validation before advancing to a higher TRL.",
+    "subsystem": "Control and Instrumentation Systems",
+    "evidence_used": [
+      "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "Refining NEAMS MARVEL Reactor Model Accuracy",
+      "MARVEL Instrumentation, Control, & Software Considerations",
+      "Comparing Control Performance Between Simulation and Experiment using the Microreactor Automated Control System Testbed",
+      "Microreactor Program Technology Maturation MACS system reports"
+    ],
+    "top_doc_scores": [
+      0.833,
+      0.782,
+      0.77,
+      0.77,
+      0.732
+    ]
+  },
+  "safety_systems": {
+    "trl_range": "6",
+    "confidence": "MEDIUM",
+    "summary": "The safety and shutdown systems for the MARVEL micro-reactor are currently at a level that requires significant further development before they can be considered qualified for operational use. While the current design has been validated in laboratory experiments, it still lacks comprehensive testing in relevant environmental conditions and requires additional validation of its shutdown procedures. Further research is needed to demonstrate the robustness and reliability of these systems.",
+    "key_evidence": "Document 4 provides valuable insights into the structural design and analysis of the primary coolant system for MARVEL, but its limitations are significant, particularly regarding the lack of testing in operational conditions and the reliance on surrogate models. While Document 1 demonstrates a basic understanding of thermal-hydraulic analysis, it falls short of providing sufficient validation for the micro-reactor's safety and shutdown systems.",
+    "limiting_factor": "The primary limiting factor is the need for further laboratory experimentation to validate the shutdown procedures and ensure the reliability of the systems in operational conditions.",
+    "next_step": "To advance to a higher TRL, significant additional research is required to develop more comprehensive testing protocols for the MARVEL micro-reactor's safety and shutdown systems. This could involve conducting experiments that simulate various operational scenarios, including startup and shutdown procedures, as well as testing the systems' reliability under different operating conditions.",
+    "raw_response": "TRL_RANGE: 6\nCONFIDENCE: MEDIUM\nSUMMARY: The safety and shutdown systems for the MARVEL micro-reactor are currently at a level that requires significant further development before they can be considered qualified for operational use. While the current design has been validated in laboratory experiments, it still lacks comprehensive testing in relevant environmental conditions and requires additional validation of its shutdown procedures. Further research is needed to demonstrate the robustness and reliability of these systems.\nKEY_EVIDENCE: Document 4 provides valuable insights into the structural design and analysis of the primary coolant system for MARVEL, but its limitations are significant, particularly regarding the lack of testing in operational conditions and the reliance on surrogate models. While Document 1 demonstrates a basic understanding of thermal-hydraulic analysis, it falls short of providing sufficient validation for the micro-reactor's safety and shutdown systems.\nLIMITING_FACTOR: The primary limiting factor is the need for further laboratory experimentation to validate the shutdown procedures and ensure the reliability of the systems in operational conditions.\nNEXT_STEP: To advance to a higher TRL, significant additional research is required to develop more comprehensive testing protocols for the MARVEL micro-reactor's safety and shutdown systems. This could involve conducting experiments that simulate various operational scenarios, including startup and shutdown procedures, as well as testing the systems' reliability under different operating conditions.",
+    "subsystem": "Safety and Shutdown Systems",
+    "evidence_used": [
+      "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes",
+      "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING",
+      "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+      "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes"
+    ],
+    "top_doc_scores": [
+      0.833,
+      0.815,
+      0.742,
+      0.708,
+      0.682
+    ]
+  },
+  "grid_integration": {
+    "trl_range": "6-7",
+    "confidence": "MEDIUM",
+    "summary": "The integration of microreactors into grid systems requires significant advancements in thermal-hydraulic modeling, component testing, and system demonstration to achieve a qualified status. While the current evidence demonstrates basic understanding of MARVEL's fuel performance and primary coolant system design, further research is needed to improve thermal management strategies and demonstrate the system's ability to operate in operational environments.",
+    "key_evidence": "Document 3 provides valuable insights into the thermal-hydraulic-mechanical modeling of the sodium-potassium-cooled MARVEL microreactor core. However, its limitations are primarily due to the lack of experimental data on the system's performance in a real-world environment, which is essential for advancing to higher TRLs.",
+    "limiting_factor": "The current evidence lacks sufficient experimental data to demonstrate the system's ability to operate in operational environments, such as grid integration and load coupling. Further research is needed to develop and validate thermal management strategies that can effectively manage heat transfer between the microreactor and the surrounding environment.",
+    "next_step": "Document 4 provides a promising starting point for accelerating the demonstration of various thermal management systems for data centers using nuclear-generated heat. The study's focus on developing and validating thermal management systems could be expanded to include more advanced subsystems, such as power generation and grid integration, to advance to higher TRLs.",
+    "raw_response": "TRL_RANGE: 6-7\nCONFIDENCE: MEDIUM\nSUMMARY: The integration of microreactors into grid systems requires significant advancements in thermal-hydraulic modeling, component testing, and system demonstration to achieve a qualified status. While the current evidence demonstrates basic understanding of MARVEL's fuel performance and primary coolant system design, further research is needed to improve thermal management strategies and demonstrate the system's ability to operate in operational environments.\nKEY_EVIDENCE: Document 3 provides valuable insights into the thermal-hydraulic-mechanical modeling of the sodium-potassium-cooled MARVEL microreactor core. However, its limitations are primarily due to the lack of experimental data on the system's performance in a real-world environment, which is essential for advancing to higher TRLs.\nLIMITING_FACTOR: The current evidence lacks sufficient experimental data to demonstrate the system's ability to operate in operational environments, such as grid integration and load coupling. Further research is needed to develop and validate thermal management strategies that can effectively manage heat transfer between the microreactor and the surrounding environment.\nNEXT_STEP: Document 4 provides a promising starting point for accelerating the demonstration of various thermal management systems for data centers using nuclear-generated heat. The study's focus on developing and validating thermal management systems could be expanded to include more advanced subsystems, such as power generation and grid integration, to advance to higher TRLs.",
+    "subsystem": "Grid Integration and Load Coupling",
+    "evidence_used": [
+      "MARVEL Reactor Fuel Performance Report",
+      "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "Thermal-Hydraulic-Mechanical Modeling and Simulation of Sodium-Potassium-Cooled MARVEL Microreactor Core",
+      "Improving Thermal Management Strategies for Data Centers: A Physical Testbed Incorporating Small Modular Reactor and Microreactor Technology",
+      "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code"
+    ],
+    "top_doc_scores": [
+      0.895,
+      0.833,
+      0.76,
+      0.733,
+      0.708
+    ]
+  }
+}

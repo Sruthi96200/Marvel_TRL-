@@ -1,0 +1,204 @@
+{
+  "subsystem": "grid_integration",
+  "name": "Grid Integration and Load Coupling",
+  "osti_results": [
+    {
+      "osti_id": "3013183",
+      "title": "Accelerating nuclear-integrated data center pursuits in the USA: SWOT analysis, power-thermal management strategies and demonstration plan",
+      "url": "https://www.osti.gov/biblio/3013183",
+      "doi_url": "https://doi.org/10.1016/j.nucengdes.2025.114579",
+      "snippet": "Here, this study explores the increasing interest in leveraging nuclear power to meet the escalating energy demands of data centers in the United States (U.S.) by focusing on key factors that contribute to accelerated deployment. The study highlights the importance of N+1/N+2 power supplies (where N is the required number of units), outlines research and innovations in nuclear-integrated data center thermal management and demonstration plan. It also provides updates about status and costing of v",
+      "publication_date": "2025-11-08T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3024034",
+      "title": "Thermal-Hydraulic-Mechanical Modeling and Simulation of Sodium-Potassium-Cooled MARVEL Microreactor Core",
+      "url": "https://www.osti.gov/biblio/3024034",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.26066051",
+      "snippet": "The U.S. Department of Energy's Microreactor Program, with Idaho National Laboratory's development of a nuclear microreactor applications test bed named MARVEL, aims to support R&D for the deployment of small, transportable reactors across civilian, industrial, and defense sectors. The MARVEL microreactor, an 85-kWth thermal fission reactor, incorporates TRIGA nuclear fuel and a sodium-potassium eutectic as its primary coolant, designed for safety and efficiency, with natural circulation elimina",
+      "publication_date": "2026-02-06T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "2587229",
+      "title": "Improving Thermal Management Strategies for Data Centers: A Physical Testbed Incorporating Small Modular Reactor and Microreactor Technology",
+      "url": "https://www.osti.gov/biblio/2587229",
+      "doi_url": "",
+      "snippet": "This study aims to accelerate the demonstration of various thermal management systems for data centers using nuclear-generated heat to enhance energy and grid reliability. Utilizing mobile containerized and stationary test beds at INL's High Performance Computing (HPC) facility, this project integrates with various nuclear-related energy systems testing facilities. Key components include immersion cooling apparatus, absorption chillers, and adjustable thermal management simulators. Tasks involve",
+      "publication_date": "2025-08-12T04:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3012575",
+      "title": "Techno-Economic Assessment of Data Center Load Demand Powered by Small Modular Reactors and Distributed Energy Resources",
+      "url": "https://www.osti.gov/biblio/3012575",
+      "doi_url": "",
+      "snippet": "The rapid increase in data center energy demand, driven by AI and large-scale data processing, poses significant challenges to global energy infrastructure. Data centers require substantial and reliable energy for continuous operations and high-performance computing. Current electrical grids face issues such as transmission bottlenecks and aging infrastructure, making it difficult to meet these demands. Integrating inverter-based-resources (IBRs) like solar and wind presents both opportunities a",
+      "publication_date": "2026-01-08T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3028855",
+      "title": "Job Scheduler-Driven Power Gateway for High Performance Computing",
+      "url": "https://www.osti.gov/biblio/3028855",
+      "doi_url": "",
+      "snippet": "Power gateways in the form of a microgrid can\r\nincorporate multiple distributed energy resources (DER) in\r\neither grid forming or grid following mode and support high\r\nperformance computing (HPC) power profiles including the large\r\nload-follow requirements observed in multi-user HPC systems.\r\nThe microgrid\u2019s flexibility to operate in either grid forming or\r\ngrid following mode and to actively switch between these modes\r\nenables baseline power from multiple non-baseline DER while\r\nmaintaining hig",
+      "publication_date": "2025-06-10T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3020478",
+      "title": "Reproducible benchmark for the SNAP 8 experimental reactor at operating conditions",
+      "url": "https://www.osti.gov/biblio/3020478",
+      "doi_url": "https://doi.org/10.1016/j.anucene.2026.112243",
+      "snippet": "This work presents fully reproducible multiphysics benchmark models of the Systems for Nuclear Auxiliary Power (SNAP) 8 Experimental Reactor at operating conditions with coolant flow. Wet experiment (with coolant, at power) validation benchmarks are presented using both deterministic (Serpent-Griffin) and Monte-Carlo (OpenMC-Cardinal) multiphysics frameworks coupled with thermal-hydraulic solvers in MOOSE. Reactivity coefficient measurements including fuel temperature, isothermal temperature, an",
+      "publication_date": "2026-02-25T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3025045",
+      "title": "SCRES Energy Quest Workshop",
+      "url": "https://www.osti.gov/biblio/3025045",
+      "doi_url": "https://doi.org/10.2172/3025045",
+      "snippet": "Energy Quest: Sitka\u2019s Path to 2050 is a game based public engagement tool developed as part of the Sitka Community Renewable Energy Strategy and the U.S. Department of Energy\u2019s Energy Transitions Initiative Partnership Project Cohort 3. Designed for Sitka\u2019s isolated island microgrid, which is powered primarily by hydropower and depends on imported diesel for backup, the game translated complex long term energy planning questions into an interactive format. In facilitated workshops, residents bui",
+      "publication_date": "2026-03-13T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3021445",
+      "title": "MARVEL Reactor Fuel Performance Report",
+      "url": "https://www.osti.gov/biblio/3021445",
+      "doi_url": "",
+      "snippet": "The Microreactor Applications Research Validation and EvaLuation (MARVEL) project is producing a high temperature liquid metal-cooled nuclear test bed at Idaho National Laboratory (INL) to ultimately improve the integration of microreactors to end-user applications. This ambitious effort seeks to design, authorize, construct, test, and operate the reactor within five years. In order to construct and operate the MARVEL reactor in a timely manner, the system will utilize materials and component de",
+      "publication_date": "2026-01-27T00:00:00Z",
+      "authors": "",
+      "source_type": "Program Document",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3017646",
+      "title": "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+      "url": "https://www.osti.gov/biblio/3017646",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.2556622",
+      "snippet": "This paper presents the structural design and supporting analysis for the Microreactor Applications Research Validation and Evaluation (MARVEL) primary coolant system (PCS) using the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code Section III, Division 5, rules. MARVEL is a liquid metal\u2013cooled microreactor intended to provide experimental capabilities for the rapid testing and development of microreactor technologies. The PCS utilizes high-temperature sodium-potas",
+      "publication_date": "2025-12-17T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3022372",
+      "title": "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes",
+      "url": "https://www.osti.gov/biblio/3022372",
+      "doi_url": "https://doi.org/10.2172/3022372",
+      "snippet": "Advanced nuclear reactors are a key part of the future of nuclear energy both in the United States and globally. They offer unique benefits for various energy-demanding applications, including use in remote locations, compact size, modular manufacturing, remote monitoring, low and/or variable power rating operation, and reliance on novel technologies to enhance operational safety.\r\nTo achieve economic feasibility, advanced reactors must significantly reduce their workforces in comparison with th",
+      "publication_date": "2025-09-30T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3024441",
+      "title": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "url": "https://www.osti.gov/biblio/3024441",
+      "doi_url": "",
+      "snippet": "MARVEL is a natural-convection-cooled sodium-potassium microreactor that is anticipated to generate 85 kilowatts of thermal energy. It will operate within Idaho National Laboratory\u2019s Transient Reactor Test Facility and is being developed by the DOE Microreactor Program. MARVEL will be used to test microreactor applications, evaluate systems for remote monitoring, and develop autonomous control technologies.\r\n\r\nA thermal-hydraulic computational model of this facility is a valuable tool to study i",
+      "publication_date": "2025-09-08T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3001074",
+      "title": "Preliminary Analysis of Nuclear-Powered Data Center Scenarios",
+      "url": "https://www.osti.gov/biblio/3001074",
+      "doi_url": "https://doi.org/10.2172/3001074",
+      "snippet": "This report provides a comprehensive analysis of the potential for nuclear energy to meet the growing energy demands of data centers (DCs). It evaluates the technical, economic, and socio-environmental implications of coupling Nuclear Power Plants (NPPs) with DCs, providing initial responses to several key research questions: What is the potential increased energy demand from DCs in the U.S., in the short, medium and long term? The U.S. is experiencing a rapid increase in energy demand from DCs,",
+      "publication_date": "2025-08-31T04:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3007111",
+      "title": "2025 Large Load Literature Review",
+      "url": "https://www.osti.gov/biblio/3007111",
+      "doi_url": "https://doi.org/10.2172/3007111",
+      "snippet": "This literature review catalogs more than 90 publications focused on large loads, and groups the documents and resources thematically into 12 categories, (listed below). The 2026 Large Load Literature Review and Data Sources summary reports are available here: https://emp.lbl.gov/publications/2026-large-load-literature-review\n\n-Load forecasting\n-Data sources\n-Reliability and resource adequacy\n-Large load interconnection\n-Demand flexibility\n-Generation\n-Co-location\n-Data center location/infrastru",
+      "publication_date": "2025-12-31T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3013288",
+      "title": "Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies",
+      "url": "https://www.osti.gov/biblio/3013288",
+      "doi_url": "https://doi.org/10.2172/3013288",
+      "snippet": "The magnitude and complexity of electricity usage patterns from large data centers are having significant impacts on the operation and dynamics of the power grid; grid operators and planners require a range of specialized data center models to properly evaluate these impacts and specify technical solutions as needed. Towards addressing this need, Pacific Northwest National Laboratory (PNNL) has developed a library of electromagnetic transient (EMT) models for grid-level studies of data centers c",
+      "publication_date": "2026-01-15T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    }
+  ],
+  "arxiv_results": [
+    {
+      "arxiv_id": "1404.6681v2",
+      "title": "Power Management Techniques for Data Centers: A Survey",
+      "url": "https://arxiv.org/abs/1404.6681v2",
+      "pdf_url": "https://arxiv.org/pdf/1404.6681v2",
+      "snippet": "With growing use of internet and exponential growth in amount of data to be stored and processed (known as 'big data'), the size of data centers has greatly increased. This, however, has resulted in significant increase in the power consumption of the data centers. For this reason, managing power consumption of data centers has become essential. In this paper, we highlight the need of achieving energy efficiency in data centers and survey several recent architectural techniques designed for powe",
+      "publication_date": "2014-04-26",
+      "authors": "Sparsh Mittal",
+      "source": "arXiv"
+    },
+    {
+      "arxiv_id": "1703.07500v2",
+      "title": "Can Attackers with Limited Information Exploit Historical Data to Mount Successful False Data Injection Attacks on Power Systems?",
+      "url": "https://arxiv.org/abs/1703.07500v2",
+      "pdf_url": "https://arxiv.org/pdf/1703.07500v2",
+      "snippet": "This paper studies physical consequences of unobservable false data injection (FDI) attacks designed only with information inside a sub-network of the power system. The goal of this attack is to overload a chosen target line without being detected via measurements. To overcome the limited information, a multiple linear regression model is developed to learn the relationship between the external network and the attack sub-network from historical data. The worst possible consequences of such FDI a",
+      "publication_date": "2017-03-22",
+      "authors": "Jiazi Zhang, Zhigang Chu, Lalitha Sankar, Oliver Kosut",
+      "source": "arXiv"
+    }
+  ],
+  "total_documents": 16,
+  "relevance_stats": {
+    "osti_fetched": 39,
+    "osti_relevant": 14,
+    "arxiv_fetched": 21,
+    "arxiv_relevant": 2,
+    "total_filtered_out": 44
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "trl_range": "6-7",
+  "confidence": "MEDIUM",
+  "summary": "The Power Conversion System (Stirling Engines) for a high-performance sodium-filled heat pipe requires significant technological advancements in areas such as materials science, thermal management, and control systems to achieve reliable operation at high power levels. While the existing evidence documents provide valuable insights into the feasibility of this system, further research is needed to demonstrate its performance and reliability in a controlled environment. The limiting factor is the lack of data on the thermal stability and durability of sodium-filled heat pipes under high-power conditions.",
+  "key_evidence": "Document 1 provides a good understanding of the heat pipe's behavior under transient conditions, but lacks detailed information on the system's overall performance and reliability. Document 2 offers insights into the design and operation of the MARVEL microreactor, but does not provide direct evidence of the Stirling Engines' performance in this context.",
+  "limiting_factor": "The lack of data on thermal stability and durability of sodium-filled heat pipes under high-power conditions is a significant limiting factor for advancing to TRL 7. Further research is needed to develop materials and designs that can withstand the stresses associated with high power operation.",
+  "next_step": "To advance to TRL 8, further experimental work is required to demonstrate the Stirling Engines' performance in a controlled environment, including testing under various operating conditions and characterizing the system's thermal behavior.",
+  "raw_response": "TRL_RANGE: 6-7\nCONFIDENCE: MEDIUM\nSUMMARY: The Power Conversion System (Stirling Engines) for a high-performance sodium-filled heat pipe requires significant technological advancements in areas such as materials science, thermal management, and control systems to achieve reliable operation at high power levels. While the existing evidence documents provide valuable insights into the feasibility of this system, further research is needed to demonstrate its performance and reliability in a controlled environment. The limiting factor is the lack of data on the thermal stability and durability of sodium-filled heat pipes under high-power conditions.\nKEY_EVIDENCE: Document 1 provides a good understanding of the heat pipe's behavior under transient conditions, but lacks detailed information on the system's overall performance and reliability. Document 2 offers insights into the design and operation of the MARVEL microreactor, but does not provide direct evidence of the Stirling Engines' performance in this context.\nLIMITING_FACTOR: The lack of data on thermal stability and durability of sodium-filled heat pipes under high-power conditions is a significant limiting factor for advancing to TRL 7. Further research is needed to develop materials and designs that can withstand the stresses associated with high power operation.\nNEXT_STEP: To advance to TRL 8, further experimental work is required to demonstrate the Stirling Engines' performance in a controlled environment, including testing under various operating conditions and characterizing the system's thermal behavior.",
+  "subsystem": "Power Conversion System (Stirling Engines)",
+  "evidence_used": [
+    "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Lessons Learned from MARVEL Initial Fabrication and Testing",
+    "MARVEL Utilization Plan",
+    "MARVEL Decommissioning Plan"
+  ],
+  "top_doc_scores": [
+    0.873,
+    0.833,
+    0.807,
+    0.777,
+    0.777
+  ]
+}

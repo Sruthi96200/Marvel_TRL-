@@ -1,0 +1,24 @@
+{
+  "trl_range": "6",
+  "confidence": "MEDIUM",
+  "summary": "The safety and shutdown systems for the MARVEL micro-reactor are currently at a level that requires significant further development before they can be considered qualified for operational use. While the current design has been validated in laboratory experiments, it still lacks comprehensive testing in relevant environmental conditions and requires additional validation of its shutdown procedures. Further research is needed to demonstrate the robustness and reliability of these systems.",
+  "key_evidence": "Document 4 provides valuable insights into the structural design and analysis of the primary coolant system for MARVEL, but its limitations are significant, particularly regarding the lack of testing in operational conditions and the reliance on surrogate models. While Document 1 demonstrates a basic understanding of thermal-hydraulic analysis, it falls short of providing sufficient validation for the micro-reactor's safety and shutdown systems.",
+  "limiting_factor": "The primary limiting factor is the need for further laboratory experimentation to validate the shutdown procedures and ensure the reliability of the systems in operational conditions.",
+  "next_step": "To advance to a higher TRL, significant additional research is required to develop more comprehensive testing protocols for the MARVEL micro-reactor's safety and shutdown systems. This could involve conducting experiments that simulate various operational scenarios, including startup and shutdown procedures, as well as testing the systems' reliability under different operating conditions.",
+  "raw_response": "TRL_RANGE: 6\nCONFIDENCE: MEDIUM\nSUMMARY: The safety and shutdown systems for the MARVEL micro-reactor are currently at a level that requires significant further development before they can be considered qualified for operational use. While the current design has been validated in laboratory experiments, it still lacks comprehensive testing in relevant environmental conditions and requires additional validation of its shutdown procedures. Further research is needed to demonstrate the robustness and reliability of these systems.\nKEY_EVIDENCE: Document 4 provides valuable insights into the structural design and analysis of the primary coolant system for MARVEL, but its limitations are significant, particularly regarding the lack of testing in operational conditions and the reliance on surrogate models. While Document 1 demonstrates a basic understanding of thermal-hydraulic analysis, it falls short of providing sufficient validation for the micro-reactor's safety and shutdown systems.\nLIMITING_FACTOR: The primary limiting factor is the need for further laboratory experimentation to validate the shutdown procedures and ensure the reliability of the systems in operational conditions.\nNEXT_STEP: To advance to a higher TRL, significant additional research is required to develop more comprehensive testing protocols for the MARVEL micro-reactor's safety and shutdown systems. This could involve conducting experiments that simulate various operational scenarios, including startup and shutdown procedures, as well as testing the systems' reliability under different operating conditions.",
+  "subsystem": "Safety and Shutdown Systems",
+  "evidence_used": [
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes",
+    "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING",
+    "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+    "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes"
+  ],
+  "top_doc_scores": [
+    0.833,
+    0.815,
+    0.742,
+    0.708,
+    0.682
+  ]
+}

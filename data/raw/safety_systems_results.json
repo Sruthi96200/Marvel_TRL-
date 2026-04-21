@@ -1,0 +1,158 @@
+{
+  "subsystem": "safety_systems",
+  "name": "Safety and Shutdown Systems",
+  "osti_results": [
+    {
+      "osti_id": "3012259",
+      "title": "Human Factors Considerations for Anticipated Uses of Autonomy in Advanced Reactor Technologies",
+      "url": "https://www.osti.gov/biblio/3012259",
+      "doi_url": "https://doi.org/10.2172/3012259",
+      "snippet": "The objective of this report is examine anticipated advanced reactor designs that incorporate high levels of autonomy in operation of advanced reactor systems or facilities, and to begin identifying the human factors engineering (HFE) considerations relevant to those designs. The insights gained will help identify areas where U.S. Nuclear Regulatory Commission (NRC) may need to develop or update review guidance to adequately address HFE considerations essential for safe operation. The adequacy o",
+      "publication_date": "2025-12-19T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3013455",
+      "title": "Comparative Assessment of Radiological Consequences from Sabotage-Induced Releases in Diverse Microreactor Designs",
+      "url": "https://www.osti.gov/biblio/3013455",
+      "doi_url": "https://doi.org/10.2172/3013455",
+      "snippet": "Many microreactor design developers are planning to reduce on-site physical protection measures and emergency planning zones by relying on robust fuel and reactor designs and leveraging passive safety systems. These reductions raise the risk of sabotage at these microreactors. To evaluate these requirements, this study assessed the radiological consequences of sabotage-induced accidents at microreactors. For the assessment, five diverse designs, each producing 30 MWt, were considered. These desi",
+      "publication_date": "2026-01-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3024441",
+      "title": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+      "url": "https://www.osti.gov/biblio/3024441",
+      "doi_url": "",
+      "snippet": "MARVEL is a natural-convection-cooled sodium-potassium microreactor that is anticipated to generate 85 kilowatts of thermal energy. It will operate within Idaho National Laboratory\u2019s Transient Reactor Test Facility and is being developed by the DOE Microreactor Program. MARVEL will be used to test microreactor applications, evaluate systems for remote monitoring, and develop autonomous control technologies.\r\n\r\nA thermal-hydraulic computational model of this facility is a valuable tool to study i",
+      "publication_date": "2025-09-08T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3024388",
+      "title": "Large Eddy Simulation of Low Reynolds Number Turbulent Flow of Low Prandtl Number Fluid in a Tight Lattice Bundle for Assessment of Reynolds-Averaged Navier-Stokes Turbulence Model",
+      "url": "https://www.osti.gov/biblio/3024388",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.2605608",
+      "snippet": "The MARVEL (Microreactor Applications Research Validation and Evaluation) microreactor utilizes natural circulation as core cooling mechanism and liquid metal as a primary coolant. Moreover, the reactor core has a pitch-to-diameter ratio of 1.056, which is considered a tight lattice configuration. Numerous studies have widely reported that Reynolds-Averaged Navier-Stokes (RANS) turbulence models inaccurately predict heat transfer in liquid metals and fail to capture flow pulsations that can occu",
+      "publication_date": "2026-02-04T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3017646",
+      "title": "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+      "url": "https://www.osti.gov/biblio/3017646",
+      "doi_url": "https://doi.org/10.1080/00295450.2025.2556622",
+      "snippet": "This paper presents the structural design and supporting analysis for the Microreactor Applications Research Validation and Evaluation (MARVEL) primary coolant system (PCS) using the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code Section III, Division 5, rules. MARVEL is a liquid metal\u2013cooled microreactor intended to provide experimental capabilities for the rapid testing and development of microreactor technologies. The PCS utilizes high-temperature sodium-potas",
+      "publication_date": "2025-12-17T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3022372",
+      "title": "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes",
+      "url": "https://www.osti.gov/biblio/3022372",
+      "doi_url": "https://doi.org/10.2172/3022372",
+      "snippet": "Advanced nuclear reactors are a key part of the future of nuclear energy both in the United States and globally. They offer unique benefits for various energy-demanding applications, including use in remote locations, compact size, modular manufacturing, remote monitoring, low and/or variable power rating operation, and reliance on novel technologies to enhance operational safety.\r\nTo achieve economic feasibility, advanced reactors must significantly reduce their workforces in comparison with th",
+      "publication_date": "2025-09-30T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3013635",
+      "title": "Leveraging MARVEL and SPHERE to Demonstrate NEAMS Thermal Hydraulics Codes",
+      "url": "https://www.osti.gov/biblio/3013635",
+      "doi_url": "https://doi.org/10.2172/3013635",
+      "snippet": "The Single Primary Heat Extraction and Removal Emulator (SPHERE) and Microreactor Applications Research Validation and Evaluation (MARVEL) were utilized to demonstrate thermal hydraulics codes of the Nuclear Energy Advanced Modeling and Simulation (NEAMS) program. A recent long-duration test of a sodium heat pipe conducted at the SPHERE facility was utilized for the validation of the heat pipe code Sockeye. The first 10 hours of operation featured a startup of the heat pipe from room temperature",
+      "publication_date": "2024-12-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "2473086",
+      "title": "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING",
+      "url": "https://www.osti.gov/biblio/2473086",
+      "doi_url": "",
+      "snippet": "The paper presents the current status of the Microreactor Applications, Research, Validation, and Evaluation (MARVEL) microreactor design, qualification testing, fabrication, and high-level construction schedule. An overview of initial criticality, low power physics testing, and start-up testing is included, as well as an overview of the envisioned processes in which end-users can engage the project for access to operational data or specific demonstrations. Designed by the Idaho National Laborat",
+      "publication_date": "2024-10-21T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3017259",
+      "title": "Open-source microreactor design models for technoeconomic assessments",
+      "url": "https://www.osti.gov/biblio/3017259",
+      "doi_url": "https://doi.org/10.1016/j.nucengdes.2025.114210",
+      "snippet": "Technoeconomic analyses for advanced nuclear technologies are essential for identifying cost drivers which allow for optimizing the technology to achieve better economic performance. Microreactors are emerging as a promising and reliable-energy solution, offering inherent safety, low capital investment, and rapid deployment capabilities. Past studies have conducted technoeconomic analyses for microreactors, but there remains a need for open-source technoeconomic models that can enhance collabora",
+      "publication_date": "2025-06-28T00:00:00Z",
+      "authors": "",
+      "source_type": "Journal Article",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "2382756",
+      "title": "ANS Summer Meeting 2024: MARVEL Documented Safety Analysis (DSA)",
+      "url": "https://www.osti.gov/biblio/2382756",
+      "doi_url": "",
+      "snippet": "High level summary of MARVEL's preliminary documented safety analysis for a MARVEL panel at ANS.",
+      "publication_date": "2024-06-17T00:00:00Z",
+      "authors": "",
+      "source_type": "Conference",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
+      "osti_id": "3007477",
+      "title": "Guidance Regarding Probable Approaches and Instrumentation to Liquid Fuel Molten Salt Reactor Material Control and Accounting (MC&amp;A) Rev. 1",
+      "url": "https://www.osti.gov/biblio/3007477",
+      "doi_url": "https://doi.org/10.2172/3007477",
+      "snippet": "With the rapid development of advanced reactors and numerous companies requesting pre-application engagements with the Nuclear Regulatory Commission (NRC), there is need for the NRC to best prepare themselves for new challenges presented by advanced technologies. One specific reactor type of interest is the molten salt reactor (MSR) that uses liquid salt as the fuel for the reactor. Liquid salt fuel reactors have specific challenges with regards to performing material control and accounting (MC&",
+      "publication_date": "2025-12-01T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    }
+  ],
+  "arxiv_results": [
+    {
+      "arxiv_id": "2507.04129v1",
+      "title": "High-Fidelity Modelling of the Molten Salt Fast Reactor",
+      "url": "https://arxiv.org/abs/2507.04129v1",
+      "pdf_url": "https://arxiv.org/pdf/2507.04129v1",
+      "snippet": "The Molten Salt Fast Reactor (MSFR) is one of the six GEN-IV reactor designs. In the MSFR, the liquid fuel is the coolant, which moves throughout the primary circuit. This complex phenomenology requires multiphysics modeling. In the present paper, a model of the MSFR is developed in the multiphysics code Cardinal, considering neutronic-thermal hydraulic feedback and the transport of delayed neutron precursors (DNPs) and decay heat precursors (DHPs). OpenMC is used to solve neutronic equations, a",
+      "publication_date": "2025-07-05",
+      "authors": "Maximiliano Dalinger, Elia Merzari, Saya Lee, Casey Emler",
+      "source": "arXiv"
+    }
+  ],
+  "total_documents": 12,
+  "relevance_stats": {
+    "osti_fetched": 32,
+    "osti_relevant": 11,
+    "arxiv_fetched": 29,
+    "arxiv_relevant": 1,
+    "total_filtered_out": 49
+  }
+}

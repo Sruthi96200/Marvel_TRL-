@@ -1,0 +1,24 @@
+{
+  "trl_range": "6",
+  "confidence": "MEDIUM",
+  "summary": "The development of heat transport systems for nuclear reactors, such as those using heat pipes, requires significant technological advancements in materials science, thermal management, and control systems. While the existing evidence demonstrates a basic understanding of heat pipe performance, further research is needed to achieve higher TRLs. A more comprehensive understanding of heat pipe behavior under various operating conditions and the development of robust control systems are necessary to advance to higher TRLs.",
+  "key_evidence": "Document 3 provides the most relevant information on the experimental investigations of heat pipe transients, which is essential for technology demonstration and verification and validation.",
+  "limiting_factor": "The lack of detailed data on the long-term performance stability of heat pipes under various operating conditions is a significant limiting factor in advancing to higher TRLs.",
+  "next_step": "Further research focusing on the development of robust control systems and the understanding of heat pipe behavior under diverse operating conditions, such as transient and steady-state scenarios, are necessary to advance to higher TRLs.",
+  "raw_response": "TRL_RANGE: 6\nCONFIDENCE: MEDIUM\nSUMMARY: The development of heat transport systems for nuclear reactors, such as those using heat pipes, requires significant technological advancements in materials science, thermal management, and control systems. While the existing evidence demonstrates a basic understanding of heat pipe performance, further research is needed to achieve higher TRLs. A more comprehensive understanding of heat pipe behavior under various operating conditions and the development of robust control systems are necessary to advance to higher TRLs.\nKEY_EVIDENCE: Document 3 provides the most relevant information on the experimental investigations of heat pipe transients, which is essential for technology demonstration and verification and validation.\nLIMITING_FACTOR: The lack of detailed data on the long-term performance stability of heat pipes under various operating conditions is a significant limiting factor in advancing to higher TRLs.\nNEXT_STEP: Further research focusing on the development of robust control systems and the understanding of heat pipe behavior under diverse operating conditions, such as transient and steady-state scenarios, are necessary to advance to higher TRLs.",
+  "subsystem": "Heat Transport System (Heat Pipes)",
+  "evidence_used": [
+    "MARVEL Reactor Fuel Performance Report",
+    "Perspectives on Potential Advanced Construction Technologies for Nuclear Energy",
+    "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+    "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+    "Single Primary Heat Extraction and Removal Emulator (SPHERE) Long Duration Testing"
+  ],
+  "top_doc_scores": [
+    0.895,
+    0.895,
+    0.873,
+    0.833,
+    0.833
+  ]
+}
