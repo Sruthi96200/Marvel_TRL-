@@ -63,34 +63,11 @@ REPORT GENERATOR — Synthesizes into Narrative Reports
 |------|--------|--------|
 | Scrape evidence | `test_scraper.py` | `data/raw/*.json` |
 | Score documents | `run_scorer.py` | `data/scored/*.json` |
-| Infer TRL | `run_trl_inference.py` | `data/trl/*.json` (fail-safe: bad Ollama runs do not overwrite valid TRL; see `data/trl/failed_runs/`) |
+| Infer TRL | `run_trl_inference.py` | `data/trl/*.json` |
 | Gap analysis | `run_gap_analysis.py` | `data/gaps/MARVEL_GAP_REPORT.json` |
-| Build dashboard | `generate_dashboard.py` | `MARVEL_TRL_Dashboard.html` (open in browser) |
+| Build dashboard | `generate_dashboard.py` | `MARVEL_TRL_Dashboard.html` |
 
-Shortcut: `make dashboard` runs gap analysis then regenerates the HTML (see `Makefile`).
-
----
-
-## Understanding Aid (SME Pass)
-
-If you want to validate results rather than only run scripts, use:
-
-- `docs/SME_REVIEW_WORKSHEET.md`
-
-This guides a 45-60 minute subsystem review (evidence grounding, uncertainty, DSM/architecture checks, and decision note).
-
----
-
-## Target Subsystems
-
-Based on MARVEL's documented architecture:
-
-1. Reactor Core & Fuel Assembly
-2. Heat Transport System (Heat Pipes)
-3. Power Conversion System (Stirling Engines)
-4. Instrumentation & Control Systems
-5. Safety & Shutdown Systems
-6. Grid Integration and Load Coupling
+Shortcut: `make dashboard` runs gap analysis then regenerates the HTML.
 
 ---
 
@@ -114,19 +91,25 @@ Based on MARVEL's documented architecture:
 ```
 marvel_trl/
 ├── config/
-│   └── subsystems.py          # Subsystem definitions and search terms
+│   ├── subsystems.py                 # Subsystem definitions and search terms
+│   ├── marvel_architecture_tree.json # Subsystem hierarchy
+│   └── marvel_dsm_edges.json         # Subsystem coupling map (DSM)
 ├── src/tools/
-│   ├── search_tools.py        # OSTI + arXiv scraper (Literature Collector)
-│   ├── evidence_scorer.py     # Document quality scorer (Evidence Extractor)
-│   └── trl_inferencer.py      # Ollama LLM TRL inference (TRL Mapper)
+│   ├── search_tools.py               # OSTI + arXiv scraper
+│   ├── evidence_scorer.py            # Document quality scorer
+│   ├── trl_inferencer.py             # Ollama LLM TRL inference
+│   └── gap_analyzer.py               # Evidence gap detection
 ├── data/
-│   ├── raw/                   # Scraped documents (JSON)
-│   ├── scored/                # Quality-scored documents (JSON)
-│   └── trl/                   # TRL estimates + final report (JSON)
-├── test_scraper.py            # Run scraper for all subsystems
-├── run_scorer.py              # Run evidence quality scorer
-├── run_trl_inference.py       # Run TRL inference
-└── MARVEL_TRL_Dashboard.html  # Visual dashboard (open in browser)
+│   ├── raw/                          # Scraped documents
+│   ├── scored/                       # Quality-scored documents
+│   ├── trl/                          # TRL estimates + final report
+│   └── gaps/                         # Gap analysis report
+├── docs/
+│   └── SME_REVIEW_WORKSHEET.md       # Expert validation guide
+├── generate_dashboard.py             # Builds dashboard
+├── run_gap_analysis.py               # Runs gap analyzer
+├── Makefile                          # make dashboard shortcut
+└── MARVEL_TRL_Dashboard.html         # Open in browser
 ```
 
 ---
@@ -146,10 +129,16 @@ ollama pull llama3.2
 
 ### 3. Run the full pipeline
 ```bash
-python test_scraper.py       # Scrape evidence
-python run_scorer.py         # Score documents
-python run_trl_inference.py  # Infer TRL
-# Open MARVEL_TRL_Dashboard.html in browser
+python test_scraper.py        # Scrape evidence
+python run_scorer.py          # Score documents
+python run_trl_inference.py   # Infer TRL
+python run_gap_analysis.py    # Analyze gaps
+python generate_dashboard.py  # Build dashboard
+```
+
+Or simply:
+```bash
+make dashboard
 ```
 
 ---
