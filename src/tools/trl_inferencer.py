@@ -4,7 +4,33 @@
 
 import json
 import os
+import re
 import requests
+
+
+def trl_result_is_valid(result: dict) -> bool:
+    """
+    True if the inferencer produced a usable TRL band (not an Ollama/parse failure).
+    Used by run_trl_inference.py to avoid overwriting good JSON on model errors.
+    """
+    if not result or not isinstance(result, dict):
+        return False
+    raw = str(result.get("trl_range", "")).strip().replace("–", "-")
+    if not raw or raw.lower() in ("error", "unknown"):
+        return False
+    summary = str(result.get("summary", "")).lstrip()
+    if summary.upper().startswith("ERROR"):
+        return False
+    # Single TRL or band like 5-6 (digits only)
+    if not re.match(r"^\d+(-\d+)?$", raw):
+        return False
+    parts = raw.split("-")
+    nums = [int(p) for p in parts]
+    if any(n < 1 or n > 9 for n in nums):
+        return False
+    if len(nums) == 2 and nums[0] > nums[1]:
+        return False
+    return True
 
 
 def _ollama_generate_url() -> str:

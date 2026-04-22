@@ -63,8 +63,21 @@ REPORT GENERATOR — Synthesizes into Narrative Reports
 |------|--------|--------|
 | Scrape evidence | `test_scraper.py` | `data/raw/*.json` |
 | Score documents | `run_scorer.py` | `data/scored/*.json` |
-| Infer TRL | `run_trl_inference.py` | `data/trl/*.json` |
-| View dashboard | `MARVEL_TRL_Dashboard.html` | Open in browser |
+| Infer TRL | `run_trl_inference.py` | `data/trl/*.json` (fail-safe: bad Ollama runs do not overwrite valid TRL; see `data/trl/failed_runs/`) |
+| Gap analysis | `run_gap_analysis.py` | `data/gaps/MARVEL_GAP_REPORT.json` |
+| Build dashboard | `generate_dashboard.py` | `MARVEL_TRL_Dashboard.html` (open in browser) |
+
+Shortcut: `make dashboard` runs gap analysis then regenerates the HTML (see `Makefile`).
+
+---
+
+## Understanding Aid (SME Pass)
+
+If you want to validate results rather than only run scripts, use:
+
+- `docs/SME_REVIEW_WORKSHEET.md`
+
+This guides a 45-60 minute subsystem review (evidence grounding, uncertainty, DSM/architecture checks, and decision note).
 
 ---
 

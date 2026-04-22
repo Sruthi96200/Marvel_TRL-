@@ -1,0 +1,33 @@
+{
+  "_comment": "Analyst-edited overlay for all six subsystems. TRL in report = technical performance band; rows below separate regulatory / manufacturing / integration judgments. Regenerate dashboard after edits; this file is not overwritten by run_trl_inference.py.",
+  "heat_transport": {
+    "regulatory_readiness": "Medium — test evidence exists (e.g., SPHERE context), but full reactor-qualification and acceptance pathway remains incomplete.",
+    "manufacturing_readiness": "Medium — heat-pipe fabrication and quality control are plausible, but repeatability at reactor-spec tolerance is not yet fully evidenced.",
+    "integration_readiness": "Medium — component/array behavior is promising; integrated in-reactor demonstration evidence is still limited."
+  },
+  "reactor_core": {
+    "regulatory_readiness": "Medium-Low — fuel/moderator qualification and licensing artifacts are still evolving.",
+    "manufacturing_readiness": "Medium — core fabrication path is defined, but broader production readiness and repeatability evidence are thin.",
+    "integration_readiness": "Medium — strong modeling basis exists; integrated operational evidence remains thinner than component-level evidence."
+  },
+  "power_conversion": {
+    "regulatory_readiness": "Medium — acceptance is tied to plant safety case and operational envelope definitions.",
+    "manufacturing_readiness": "Medium-High — Stirling heritage is mature in adjacent domains; nuclear-site packaging/qualification remains less certain.",
+    "integration_readiness": "Medium — coupling to realistic reactor thermal source and control scenarios is not yet strongly demonstrated in open records."
+  },
+  "control_systems": {
+    "regulatory_readiness": "Low-Medium — digital I&C and autonomous-control acceptance is a primary licensing bottleneck.",
+    "manufacturing_readiness": "Medium — platform maturity is improving, but nuclear-grade V&V evidence is still developing.",
+    "integration_readiness": "Medium — testbed control results are useful, yet full reactor-site integration evidence remains limited."
+  },
+  "safety_systems": {
+    "regulatory_readiness": "Medium — passive safety claims are conceptually strong, but formal licensing artifacts and acceptance evidence are still developing.",
+    "manufacturing_readiness": "Medium — manufacturability is linked to primary system pathways, with limited explicit safety-component production evidence.",
+    "integration_readiness": "Medium-Low — public evidence for integrated accident/transient performance is comparatively sparse."
+  },
+  "grid_integration": {
+    "regulatory_readiness": "Medium — interconnect and site/deployment requirements are known but project-specific pathway evidence is still early.",
+    "manufacturing_readiness": "Medium — many balance-of-plant elements use mature industrial supply chains.",
+    "integration_readiness": "Low — end-user coupling demonstrations for MARVEL-class operation remain early-stage."
+  }
+}
