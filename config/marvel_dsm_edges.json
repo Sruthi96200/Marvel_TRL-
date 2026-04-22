@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "description": "Typed DSM edges between MARVEL subsystem nodes. coupling: S strong, M medium, W weak. Updated across all six subsystems for clearer interface intent and critical-path review.",
+  "type_vocabulary": [
+    "structural",
+    "thermal",
+    "fluid",
+    "electrical",
+    "information",
+    "safety",
+    "regulatory",
+    "manufacturing",
+    "deployment"
+  ],
+  "edges": [
+    {
+      "from": "heat_transport",
+      "to": "reactor_core",
+      "coupling": "S",
+      "types": ["thermal", "structural", "safety"],
+      "critical": true,
+      "note": "Primary heat removal path; strongly affects core temperature margins and safety envelope"
+    },
+    {
+      "from": "heat_transport",
+      "to": "power_conversion",
+      "coupling": "S",
+      "types": ["thermal", "deployment"],
+      "critical": true,
+      "note": "Direct thermal input to convertor limits electric output and system availability"
+    },
+    {
+      "from": "heat_transport",
+      "to": "safety_systems",
+      "coupling": "S",
+      "types": ["thermal", "safety", "regulatory"],
+      "critical": true,
+      "note": "Passive decay-heat claims rely on this path; central to safety-case credibility"
+    },
+    {
+      "from": "heat_transport",
+      "to": "control_systems",
+      "coupling": "M",
+      "types": ["information", "thermal", "safety"],
+      "critical": false,
+      "note": "Thermal state feedback drives control quality, alarms, and protection logic"
+    },
+    {
+      "from": "heat_transport",
+      "to": "grid_integration",
+      "coupling": "W",
+      "types": ["thermal", "deployment"],
+      "critical": false,
+      "note": "Indirect dependency via convertor availability and thermal derating behavior"
+    },
+    {
+      "from": "reactor_core",
+      "to": "safety_systems",
+      "coupling": "S",
+      "types": ["safety", "structural", "regulatory"],
+      "critical": true,
+      "note": "Core physics and margins anchor shutdown logic, accident analysis, and licensing basis"
+    },
+    {
+      "from": "reactor_core",
+      "to": "control_systems",
+      "coupling": "M",
+      "types": ["information", "safety", "regulatory"],
+      "critical": true,
+      "note": "Control authority and sensing fidelity determine stable operation and off-normal response"
+    },
+    {
+      "from": "reactor_core",
+      "to": "power_conversion",
+      "coupling": "M",
+      "types": ["thermal", "deployment"],
+      "critical": false,
+      "note": "Thermal regime from core sets convertor operating envelope and efficiency"
+    },
+    {
+      "from": "reactor_core",
+      "to": "grid_integration",
+      "coupling": "W",
+      "types": ["thermal", "deployment"],
+      "critical": false,
+      "note": "Plant-level delivery depends on upstream core reliability through conversion chain"
+    },
+    {
+      "from": "power_conversion",
+      "to": "grid_integration",
+      "coupling": "S",
+      "types": ["electrical", "deployment", "manufacturing"],
+      "critical": true,
+      "note": "Primary interface for usable power delivery to microgrid/data-center load"
+    },
+    {
+      "from": "power_conversion",
+      "to": "control_systems",
+      "coupling": "M",
+      "types": ["information", "electrical", "deployment"],
+      "critical": false,
+      "note": "Coordinated load-following and protection needed for stable electric operation"
+    },
+    {
+      "from": "power_conversion",
+      "to": "safety_systems",
+      "coupling": "M",
+      "types": ["safety", "electrical", "regulatory"],
+      "critical": false,
+      "note": "Fault handling/protection influences safety case for integrated operations"
+    },
+    {
+      "from": "control_systems",
+      "to": "safety_systems",
+      "coupling": "S",
+      "types": ["information", "safety", "regulatory"],
+      "critical": true,
+      "note": "Digital I&C evidence is a major licensing bottleneck for autonomous operation claims"
+    },
+    {
+      "from": "control_systems",
+      "to": "grid_integration",
+      "coupling": "M",
+      "types": ["information", "electrical", "deployment"],
+      "critical": false,
+      "note": "Dispatch, curtailment, and protection coordination for end-user load profiles"
+    },
+    {
+      "from": "safety_systems",
+      "to": "grid_integration",
+      "coupling": "W",
+      "types": ["regulatory", "deployment"],
+      "critical": false,
+      "note": "Site acceptance, licensing conditions, and operational constraints affect deployment"
+    }
+  ]
+}

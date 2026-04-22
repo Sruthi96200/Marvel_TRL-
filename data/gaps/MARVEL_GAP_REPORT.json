@@ -1,0 +1,220 @@
+{
+  "generated_utc": "2026-04-21T22:36:51Z",
+  "peer_median_document_count": 27.0,
+  "summary": {
+    "highest_gap_pressure_subsystems": [
+      "safety_systems",
+      "grid_integration"
+    ],
+    "framing": "Gap index is a heuristic (0\u2013100): higher suggests thinner or more uneven evidence relative to peers. It does not replace SME review or licensing assessment."
+  },
+  "subsystems": {
+    "heat_transport": {
+      "subsystem_key": "heat_transport",
+      "name": "Heat Transport System (Heat Pipes)",
+      "coverage_label": "STRONG",
+      "gap_index": 8,
+      "signals": [
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abMARVEL Reactor Fuel Performance Report\u00bb vs \u00abSingle Primary Heat Extraction and Removal Emulator (SPHERE) Long Duration Testing\u00bb.",
+        "TRL assessment limit: The lack of detailed information on the heat pipe's performance under various operating conditions, such as transient events and long-duration operation, is holding this subsystem back from achieving \u2026"
+      ],
+      "metrics": {
+        "total_documents": 31,
+        "high_quality_count": 18,
+        "high_quality_ratio": 0.581,
+        "avg_quality_score": 0.628,
+        "osti_count": 25,
+        "arxiv_count": 6,
+        "source_type_variety": 6,
+        "gap_language_doc_fraction": 0.032,
+        "simulation_heavy_doc_fraction": 0.097,
+        "top5_quality_spread": 0.028,
+        "top5_contrast": {
+          "higher_quality_title": "MARVEL Reactor Fuel Performance Report",
+          "higher_quality_score": 0.895,
+          "lower_quality_title": "Single Primary Heat Extraction and Removal Emulator (SPHERE) Long Duration Testing",
+          "lower_quality_score": 0.833
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of detailed information on the heat pipe's performance under various operating conditions, such as transient events and long-duration operation, is holding this subsystem back from achieving TRL 7-8.",
+        "next_step": "To advance to TRL 7-8, further testing and validation are required to demonstrate the heat pipe's reliable operation in a simulated operational environment. This would involve conducting more extensive tests on the heat pipe's performance under various conditions, including transient events, and evaluating its long-term stability and reliability."
+      }
+    },
+    "reactor_core": {
+      "subsystem_key": "reactor_core",
+      "name": "Reactor Core and Fuel System",
+      "coverage_label": "STRONG",
+      "gap_index": 18,
+      "signals": [
+        "Less than 55% of documents are HIGH tier (15/34); evidence strength is uneven.",
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abMARVEL Reactor Fuel Performance Report\u00bb vs \u00abMICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS,\u00bb.",
+        "TRL assessment limit: The lack of publicly available data on the reactor's operational testing in real-world environments, such as commercial power plants or industrial settings, limits our understanding of its full capabi\u2026"
+      ],
+      "metrics": {
+        "total_documents": 34,
+        "high_quality_count": 15,
+        "high_quality_ratio": 0.441,
+        "avg_quality_score": 0.559,
+        "osti_count": 22,
+        "arxiv_count": 12,
+        "source_type_variety": 6,
+        "gap_language_doc_fraction": 0.0,
+        "simulation_heavy_doc_fraction": 0.059,
+        "top5_quality_spread": 0.0626,
+        "top5_contrast": {
+          "higher_quality_title": "MARVEL Reactor Fuel Performance Report",
+          "higher_quality_score": 0.895,
+          "lower_quality_title": "MICROREACTOR APPLICATIONS, RESEARCH, VALIDATION, AND EVALUATION (MARVEL) REACTOR ? STATUS, CONSTRUCTION, AND TESTING",
+          "lower_quality_score": 0.742
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of publicly available data on the reactor's operational testing in real-world environments, such as commercial power plants or industrial settings, limits our understanding of its full capabilities and potential challenges.",
+        "next_step": "To advance to TRL 7-8 (System demonstrated in operational environment / qualified), further testing and validation of the MARVEL reactor in real-world conditions would be necessary. This could involve partnering with industry partners to deploy the reactor in a commercial setting or conducting extensive operational testing at a nuclear test site."
+      }
+    },
+    "power_conversion": {
+      "subsystem_key": "power_conversion",
+      "name": "Power Conversion System (Stirling Engines)",
+      "coverage_label": "STRONG",
+      "gap_index": 8,
+      "signals": [
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abEvaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe\u00bb vs \u00abMARVEL Decommissioning Plan\u00bb.",
+        "TRL assessment limit: The lack of direct testing of the Stirling Engines themselves, as opposed to the heat pipes and other components that are being tested. While the documents provide some insight into the system's perfo\u2026"
+      ],
+      "metrics": {
+        "total_documents": 31,
+        "high_quality_count": 20,
+        "high_quality_ratio": 0.645,
+        "avg_quality_score": 0.596,
+        "osti_count": 21,
+        "arxiv_count": 10,
+        "source_type_variety": 5,
+        "gap_language_doc_fraction": 0.032,
+        "simulation_heavy_doc_fraction": 0.065,
+        "top5_quality_spread": 0.0364,
+        "top5_contrast": {
+          "higher_quality_title": "Evaporator Temperature Transient Testing of a High-Performance Sodium Filled Heat Pipe",
+          "higher_quality_score": 0.873,
+          "lower_quality_title": "MARVEL Decommissioning Plan",
+          "lower_quality_score": 0.777
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of direct testing of the Stirling Engines themselves, as opposed to the heat pipes and other components that are being tested. While the documents provide some insight into the system's performance, they do not directly demonstrate the capabilities of the Stirling Engines.",
+        "next_step": "To advance to TRL 7 or 8, further testing of the Stirling Engines in a more comprehensive and controlled environment would be required. This could include experimental validation of the engines' performance under various operating conditions, as well as demonstration of their ability to operate reliably over an extended period."
+      }
+    },
+    "control_systems": {
+      "subsystem_key": "control_systems",
+      "name": "Control and Instrumentation Systems",
+      "coverage_label": "STRONG",
+      "gap_index": 12,
+      "signals": [
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abMultiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subc\u00bb vs \u00abMicroreactor Program Technology Maturation MACS system reports\u00bb.",
+        "TRL assessment limit: The lack of evidence on system-level demonstrations in operational environments, such as the Transient Reactor Test Facility, holds back this subsystem from reaching TRL 7-8. Further testing and valid\u2026"
+      ],
+      "metrics": {
+        "total_documents": 23,
+        "high_quality_count": 15,
+        "high_quality_ratio": 0.652,
+        "avg_quality_score": 0.617,
+        "osti_count": 18,
+        "arxiv_count": 5,
+        "source_type_variety": 5,
+        "gap_language_doc_fraction": 0.0,
+        "simulation_heavy_doc_fraction": 0.0,
+        "top5_quality_spread": 0.0325,
+        "top5_contrast": {
+          "higher_quality_title": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+          "higher_quality_score": 0.833,
+          "lower_quality_title": "Microreactor Program Technology Maturation MACS system reports",
+          "lower_quality_score": 0.732
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of evidence on system-level demonstrations in operational environments, such as the Transient Reactor Test Facility, holds back this subsystem from reaching TRL 7-8. Further testing and validation are needed to demonstrate the performance of the I&C systems in real-world conditions.",
+        "next_step": "To advance to TRL 7-8, further testing and validation of the Control and Instrumentation Systems in operational environments, such as the Transient Reactor Test Facility, would be necessary. This could involve conducting system-level demonstrations, integrating the I&C systems with other subsystems, and verifying their performance under various operating conditions."
+      }
+    },
+    "safety_systems": {
+      "subsystem_key": "safety_systems",
+      "name": "Safety and Shutdown Systems",
+      "coverage_label": "STRONG",
+      "gap_index": 22,
+      "signals": [
+        "Thin corpus (12 docs) vs. peer median (~27) \u2014 higher uncertainty for TRL claims.",
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abMultiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subc\u00bb vs \u00abEmploying MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Sup\u00bb.",
+        "TRL assessment limit: The lack of comprehensive testing in extreme scenarios, such as loss-of-coolant accidents (LOCAs) or severe power excursions, which are critical for demonstrating the system's safety and shutdown capa\u2026"
+      ],
+      "metrics": {
+        "total_documents": 12,
+        "high_quality_count": 11,
+        "high_quality_ratio": 0.917,
+        "avg_quality_score": 0.658,
+        "osti_count": 11,
+        "arxiv_count": 1,
+        "source_type_variety": 4,
+        "gap_language_doc_fraction": 0.083,
+        "simulation_heavy_doc_fraction": 0.0,
+        "top5_quality_spread": 0.059,
+        "top5_contrast": {
+          "higher_quality_title": "Multiscale Thermal-hydraulic analysis of the MARVEL micro-reactor using coupled MOOSE Subchannel (SCM) and SAM",
+          "higher_quality_score": 0.833,
+          "lower_quality_title": "Employing MACS/ViBRANT as a Surrogate MARVEL Reactor for Startup Reactivity Tuning and Supervisory Control Processes",
+          "lower_quality_score": 0.682
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of comprehensive testing in extreme scenarios, such as loss-of-coolant accidents (LOCAs) or severe power excursions, which are critical for demonstrating the system's safety and shutdown capabilities.",
+        "next_step": "To advance to TRL 7-8, further testing would be required to validate the subsystem's performance in more extreme scenarios, including LOCAs and severe power excursions. This could involve conducting additional experiments at the Idaho National Laboratory's Transient Reactor Test Facility or other relevant test environments."
+      }
+    },
+    "grid_integration": {
+      "subsystem_key": "grid_integration",
+      "name": "Grid Integration and Load Coupling",
+      "coverage_label": "STRONG",
+      "gap_index": 22,
+      "signals": [
+        "Thin corpus (16 docs) vs. peer median (~27) \u2014 higher uncertainty for TRL claims.",
+        "Top-ranked evidence contrast (triangulation): higher-scored source vs. lower-scored source both in top five \u2014 compare \u00abMARVEL Reactor Fuel Performance Report\u00bb vs \u00abStructural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III\u00bb.",
+        "TRL assessment limit: The lack of publicly available data on the subsystem's performance in real-world grid conditions, which is a critical aspect of Grid Integration and Load Coupling."
+      ],
+      "metrics": {
+        "total_documents": 16,
+        "high_quality_count": 12,
+        "high_quality_ratio": 0.75,
+        "avg_quality_score": 0.62,
+        "osti_count": 14,
+        "arxiv_count": 2,
+        "source_type_variety": 5,
+        "gap_language_doc_fraction": 0.0,
+        "simulation_heavy_doc_fraction": 0.062,
+        "top5_quality_spread": 0.0688,
+        "top5_contrast": {
+          "higher_quality_title": "MARVEL Reactor Fuel Performance Report",
+          "higher_quality_score": 0.895,
+          "lower_quality_title": "Structural Design and Modeling of MARVEL Primary Coolant System Using the ASME Section III, Division 5, Code",
+          "lower_quality_score": 0.708
+        }
+      },
+      "from_trl_report": {
+        "trl_range": "5-6",
+        "confidence": "MEDIUM",
+        "limiting_factor": "The lack of publicly available data on the subsystem's performance in real-world grid conditions, which is a critical aspect of Grid Integration and Load Coupling.",
+        "next_step": "To advance to TRL 7-8, further testing and validation would be required to demonstrate the subsystem's ability to operate reliably and efficiently in diverse grid environments. This could involve integrating the subsystem with existing grid infrastructure, conducting extensive field trials, and gathering data on its performance under various load conditions."
+      }
+    }
+  }
+}

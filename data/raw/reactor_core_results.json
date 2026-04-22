@@ -135,6 +135,18 @@
       "source": "OSTI"
     },
     {
+      "osti_id": "3029941",
+      "title": "Capsule Design and Preparation for YHx Specimen Irradiation in the High Flux Isotope Reactor",
+      "url": "https://www.osti.gov/biblio/3029941",
+      "doi_url": "https://doi.org/10.2172/3029941",
+      "snippet": "Advanced nuclear systems for terrestrial microreactors and space applications require moderator materials with high thermal stability, hydrogen retention, and efficient neutron moderation. Yttrium hydride (YHx) is a promising candidate, but its irradiation performance and hydrogen stability remain insufficiently understood. To address this, Oak Ridge National Laboratory (ORNL) and Los Alamos National Laboratory, supported by the US Department of Energy\u2019s Nuclear Science User Facilities program, ",
+      "publication_date": "2025-09-30T00:00:00Z",
+      "authors": "",
+      "source_type": "Technical Report",
+      "research_org": "",
+      "source": "OSTI"
+    },
+    {
       "osti_id": "2556810",
       "title": "Investigation of High-Temperature Compatibility of Select Oxides with Yttrium Hydride for Micro and Space Reactor Applications",
       "url": "https://www.osti.gov/biblio/2556810",
@@ -377,10 +389,10 @@
       "source": "arXiv"
     }
   ],
-  "total_documents": 33,
+  "total_documents": 34,
   "relevance_stats": {
-    "osti_fetched": 40,
-    "osti_relevant": 21,
+    "osti_fetched": 41,
+    "osti_relevant": 22,
     "arxiv_fetched": 26,
     "arxiv_relevant": 12,
     "total_filtered_out": 33

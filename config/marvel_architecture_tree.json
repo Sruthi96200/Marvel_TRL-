@@ -1,0 +1,48 @@
+{
+  "_comment": "Ontology / decomposition preview (layer 1). Subsystem keys must match config/subsystems.py. Bullets were refined across all six subsystems to be component/interface-oriented for SME review.",
+  "version": 1,
+  "subsystems": {
+    "heat_transport": [
+      "Na/NaK heat pipe units (evaporator, adiabatic section, condenser)",
+      "Wick architecture and capillary return performance under transients",
+      "Heat-pipe manifold / array layout for core-to-convertor coupling",
+      "Envelope materials and seals at sustained temperature and chemistry",
+      "SPHERE/PCAT-style long-duration and startup/shutdown test context"
+    ],
+    "reactor_core": [
+      "Fuel element geometry and enrichment assumptions (TRIGA/SNAP heritage context)",
+      "Yttrium hydride moderator behavior (hydrogen retention, temperature effects)",
+      "Primary core structural internals and dimensional tolerances",
+      "NaK thermal-hydraulic field in channels/plenum and hot-spot control",
+      "Coupled neutronics + thermo-mechanics model validation against experiment"
+    ],
+    "power_conversion": [
+      "Stirling/free-piston convertor thermal interface to condenser side",
+      "Alternator/power electronics path to conditioned electric output",
+      "Load-following and dynamic control under reactor transients",
+      "Reliability and maintenance envelope (seals, bearings, vibration)",
+      "Heritage transfer from space systems to nuclear-site qualification context"
+    ],
+    "control_systems": [
+      "Microreactor Automated Control System (MACS) supervisory control logic",
+      "Sensor suite (temperature, flow, neutron/proxy) and validation chain",
+      "Actuation path for startup/shutdown/reactivity management",
+      "Remote monitoring, cyber-hardening, and fault handling behavior",
+      "Digital I&C V&V evidence required for licensing acceptance"
+    ],
+    "safety_systems": [
+      "Passive decay heat removal architecture and heat-sink assumptions",
+      "Shutdown / scram logic and fail-safe actuation path",
+      "Reactivity feedback mechanisms and off-normal response envelope",
+      "Accident/transient analysis set (startup, load rejection, cooldown events)",
+      "Licensing-basis artifacts (safety case, acceptance criteria, margins)"
+    ],
+    "grid_integration": [
+      "Microgrid / data-center load coupling use cases and duty cycles",
+      "Interconnect and power-quality path (switchgear, inverter/protection)",
+      "Dispatch/load-following control coordination with plant controls",
+      "Islanded operation, black-start/restart, and transition behavior",
+      "End-user demonstration scope vs. reactor demonstration scope"
+    ]
+  }
+}

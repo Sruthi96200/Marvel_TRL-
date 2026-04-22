@@ -4,17 +4,51 @@
 
 import json
 import os
+import re
 import requests
+
+
+def trl_result_is_valid(result: dict) -> bool:
+    """
+    True if the inferencer produced a usable TRL band (not an Ollama/parse failure).
+    Used by run_trl_inference.py to avoid overwriting good JSON on model errors.
+    """
+    if not result or not isinstance(result, dict):
+        return False
+    raw = str(result.get("trl_range", "")).strip().replace("–", "-")
+    if not raw or raw.lower() in ("error", "unknown"):
+        return False
+    summary = str(result.get("summary", "")).lstrip()
+    if summary.upper().startswith("ERROR"):
+        return False
+    # Single TRL or band like 5-6 (digits only)
+    if not re.match(r"^\d+(-\d+)?$", raw):
+        return False
+    parts = raw.split("-")
+    nums = [int(p) for p in parts]
+    if any(n < 1 or n > 9 for n in nums):
+        return False
+    if len(nums) == 2 and nums[0] > nums[1]:
+        return False
+    return True
+
+
+def _ollama_generate_url() -> str:
+    """Base URL without trailing slash + /api/generate (trailing slash on host causes 404)."""
+    base = os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+    return f"{base}/api/generate"
+
+
+def _ollama_model() -> str:
+    """Model tag must match `ollama list` (e.g. llama3.2, llama3.2:latest)."""
+    return os.environ.get("OLLAMA_MODEL", "llama3.2")
 
 
 class TRLInferencer:
     """
-    Sends top scored evidence documents to Ollama (llama3.2)
+    Sends top scored evidence documents to Ollama
     and gets back a TRL estimate with reasoning.
     """
-
-    OLLAMA_URL = "http://localhost:11434/api/generate"
-    MODEL = "llama3.2"
 
     # How many top documents to send to the LLM per subsystem
     TOP_N_DOCS = 5
@@ -34,8 +68,8 @@ class TRLInferencer:
         # Build the prompt
         prompt = self._build_prompt(subsystem_name, top_docs)
 
-        # Call Ollama
-        print(f"   🤖 Asking llama3.2 to estimate TRL...")
+        model = _ollama_model()
+        print(f"   🤖 Asking {model} to estimate TRL...")
         response = self._call_ollama(prompt)
 
         # Parse the response
@@ -90,11 +124,13 @@ Be conservative and honest. If evidence is limited, say so."""
 
     def _call_ollama(self, prompt: str) -> str:
         """Call Ollama API and return the response text."""
+        url = _ollama_generate_url()
+        model = _ollama_model()
         try:
             response = requests.post(
-                self.OLLAMA_URL,
+                url,
                 json={
-                    "model": self.MODEL,
+                    "model": model,
                     "prompt": prompt,
                     "stream": False,
                     "options": {
@@ -108,8 +144,34 @@ Be conservative and honest. If evidence is limited, say so."""
             return response.json().get("response", "")
         except requests.exceptions.ConnectionError:
             return "ERROR: Could not connect to Ollama. Make sure Ollama is running."
+        except requests.exceptions.HTTPError as e:
+            return self._format_ollama_http_error(e, url, model)
         except Exception as e:
             return f"ERROR: {str(e)}"
+
+    def _format_ollama_http_error(
+        self, e: requests.exceptions.HTTPError, url: str, model: str
+    ) -> str:
+        """Ollama often returns 404 when the model is missing; body has an 'error' string."""
+        resp = e.response
+        detail = ""
+        if resp is not None:
+            try:
+                body = resp.json()
+                if isinstance(body, dict) and body.get("error"):
+                    detail = f" {body['error']}"
+            except Exception:
+                detail = f" {resp.text[:200]}" if resp.text else ""
+
+        code = resp.status_code if resp is not None else "?"
+        if code == 404:
+            return (
+                f"ERROR: HTTP 404 from Ollama at {url}.{detail} "
+                f"If the model is missing, run: ollama pull {model.split(':')[0]} "
+                f"Then check the exact name with: ollama list "
+                f"(you can set OLLAMA_MODEL to match, e.g. export OLLAMA_MODEL=llama3.2:latest)."
+            )
+        return f"ERROR: HTTP {code} from Ollama.{detail}"
 
     def _parse_response(self, response: str) -> dict:
         """Parse the structured response from the LLM."""
